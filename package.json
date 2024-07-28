@@ -1,7 +1,7 @@
 {
-  "name": "concentrate",
-  "displayName": "Concentrate",
-  "description": "A soothing, distraction-free light theme",
+  "name": "distractless",
+  "displayName": "Distractless",
+  "description": "A soothing, distraction-free theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Concentrate",
+        "label": "Distractless",
         "uiTheme": "vs",
-        "path": "./themes/concentrate-color-theme.json"
+        "path": "./themes/dawn.json"
       }
     ]
   }
