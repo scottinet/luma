@@ -1,0 +1,21 @@
+{
+  "name": "concentrate",
+  "displayName": "Concentrate",
+  "description": "A soothing, distraction-free light theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Concentrate",
+        "uiTheme": "vs",
+        "path": "./themes/concentrate-color-theme.json"
+      }
+    ]
+  }
+}
