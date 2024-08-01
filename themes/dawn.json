@@ -127,7 +127,7 @@
       "scope": ["keyword", "storage"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#3b7966"
+        "foreground": "#43465f"
       }
     },
     {
@@ -135,7 +135,7 @@
       "scope": ["storage.type"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#3b7966"
+        "foreground": "#43465f"
       }
     },
     {
@@ -148,7 +148,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#2f72b9"
+        "foreground": "#43465f"
       }
     },
     {
@@ -162,7 +162,7 @@
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#43465f"
+        "foreground": "#3b7966"
       }
     },
     {
@@ -173,7 +173,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#43465f"
+        "foreground": "#2f72b9"
       }
     },
     {
