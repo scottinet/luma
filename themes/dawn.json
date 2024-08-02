@@ -115,24 +115,25 @@
       "scope": [
         "keyword.operator.arithmetic",
         "keyword.operator.logical",
-        "keyword.operator.assignment"
+        "keyword.operator.assignment",
+        "punctuation",
+        "storage.type.function.arrow",
+        "meta.brace"
       ],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "bold",
         "foreground": "#cb3cac"
       }
     },
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#43465f"
-      }
-    },
-    {
-      "name": "Types",
-      "scope": ["storage.type"],
+      "scope": [
+        "keyword",
+        "storage",
+        "keyword.operator.new",
+        "storage.type",
+        "keyword.operator.expression"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#43465f"
@@ -140,15 +141,18 @@
     },
     {
       "name": "Language Constants",
-      "scope": [
-        "constant.language",
-        "support.constant",
-        "variable.language",
-        "support.type"
-      ],
+      "scope": ["support.constant", "variable.language"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#43465f"
+      }
+    },
+    {
+      "name": "Language Constants",
+      "scope": ["constant.language", "support.type"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#2f72b9"
       }
     },
     {
@@ -162,6 +166,7 @@
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
+        "fontStyle": "underline",
         "foreground": "#3b7966"
       }
     },
@@ -173,7 +178,8 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#2f72b9"
+        "fontStyle": "",
+        "foreground": "#3b7966"
       }
     },
     {
@@ -223,13 +229,6 @@
       "scope": "constant.other.symbol",
       "settings": {
         "foreground": "#3b7966"
-      }
-    },
-    {
-      "name": "Punctuation",
-      "scope": "punctuation",
-      "settings": {
-        "foreground": "#cb3cac"
       }
     },
     {
