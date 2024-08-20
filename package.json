@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Distractless",
+        "label": "Distractless - Dawn",
         "uiTheme": "vs",
         "path": "./themes/dawn.json"
+      },
+      {
+        "label": "Distractless - Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight.json"
       }
     ]
   }
