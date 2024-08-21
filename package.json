@@ -20,6 +20,11 @@
         "label": "Distractless - Midnight",
         "uiTheme": "vs-dark",
         "path": "./themes/midnight.json"
+      },
+      {
+        "label": "Distractless - Moonlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight.json"
       }
     ]
   }
