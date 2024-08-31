@@ -17,6 +17,11 @@
         "path": "./themes/dawn.json"
       },
       {
+        "label": "Distractless - Noon",
+        "uiTheme": "vs",
+        "path": "./themes/noon.json"
+      },
+      {
         "label": "Distractless - Midnight",
         "uiTheme": "vs-dark",
         "path": "./themes/midnight.json"
