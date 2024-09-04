@@ -27,6 +27,8 @@
     "editorBracketHighlight.foreground4": "#cb3cac",
     "editorBracketHighlight.foreground5": "#329538",
     "editorBracketHighlight.foreground6": "#8b3ccb",
+    "editorGroupHeader.noTabsBackground": "#161718",
+    "editorGroupHeader.tabsBackground": "#161718",
     "editorBracketHighlight.unexpectedBracket.foreground": "#da3f3f",
     "editorGutter.background": "#161718",
     "editorInlayHint.background": "#161718",
@@ -172,7 +174,7 @@
       "scope": ["entity.name.function", "support.function"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#329538"
+        "foreground": "#E86E2C"
       }
     },
     {
@@ -184,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#329538"
+        "foreground": "#E86E2C"
       }
     },
     {
@@ -205,14 +207,14 @@
       "name": "Numbers, Characters",
       "scope": ["constant.numeric", "constant.character", "constant"],
       "settings": {
-        "foreground": "#E86E2C"
+        "foreground": "#329538"
       }
     },
     {
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#E86E2C"
+        "foreground": "#329538"
       }
     },
     {

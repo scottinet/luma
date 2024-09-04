@@ -28,6 +28,8 @@
     "editorBracketHighlight.foreground5": "#39AC41",
     "editorBracketHighlight.foreground6": "#8b3ccb",
     "editorBracketHighlight.unexpectedBracket.foreground": "#da3f3f",
+    "editorGroupHeader.noTabsBackground": "#2A2C3C",
+    "editorGroupHeader.tabsBackground": "#2A2C3C",
     "editorGutter.background": "#2A2C3C",
     "editorInlayHint.background": "#2A2C3C",
     "editorInlayHint.foreground": "#39AC4150",
@@ -172,7 +174,7 @@
       "scope": ["entity.name.function", "support.function"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#39AC41"
+        "foreground": "#fa894d"
       }
     },
     {
@@ -184,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#39AC41"
+        "foreground": "#fa894d"
       }
     },
     {
@@ -205,14 +207,14 @@
       "name": "Numbers, Characters",
       "scope": ["constant.numeric", "constant.character", "constant"],
       "settings": {
-        "foreground": "#fa894d"
+        "foreground": "#39AC41"
       }
     },
     {
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#fa894d"
+        "foreground": "#39AC41"
       }
     },
     {
