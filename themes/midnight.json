@@ -26,7 +26,7 @@
     "editorBracketHighlight.foreground3": "#2684E8",
     "editorBracketHighlight.foreground4": "#cb3cac",
     "editorBracketHighlight.foreground5": "#329538",
-    "editorBracketHighlight.foreground6": "#8b3ccb",
+    "editorBracketHighlight.foreground6": "#AD76DB",
     "editorGroupHeader.noTabsBackground": "#161718",
     "editorGroupHeader.tabsBackground": "#161718",
     "editorBracketHighlight.unexpectedBracket.foreground": "#da3f3f",
@@ -62,13 +62,13 @@
     "terminal.ansiBlue": "#2684E8",
     "terminal.ansiBrightBlue": "#2684E8",
     "terminal.ansiBrightGreen": "#329538",
-    "terminal.ansiBrightMagenta": "#8b3ccb",
+    "terminal.ansiBrightMagenta": "#AD76DB",
     "terminal.ansiBrightRed": "#da3f3f",
     "terminal.ansiBrightYellow": "#E86E2C",
     "terminal.ansiCyan": "#56c0e3",
     "terminal.ansiBrightCyan": "#56c0e3",
     "terminal.ansiGreen": "#329538",
-    "terminal.ansiMagenta": "#8b3ccb",
+    "terminal.ansiMagenta": "#AD76DB",
     "terminal.ansiRed": "#da3f3f",
     "terminal.ansiYellow": "#E86E2C",
     "terminal.foreground": "#ACA0A0",
@@ -163,13 +163,6 @@
       }
     },
     {
-      "name": "Variables",
-      "scope": ["variable", "support.variable"],
-      "settings": {
-        "foreground": "#ACA0A0"
-      }
-    },
-    {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
@@ -228,7 +221,14 @@
       "name": "Strings: Regular Expressions",
       "scope": ["string.regexp", "constant.other.character-class.range.regexp"],
       "settings": {
-        "foreground": "#8b3ccb"
+        "foreground": "#AD76DB"
+      }
+    },
+    {
+      "name": "Strings: Template Strings",
+      "scope": ["string.template", "punctuation.definition.string.template"],
+      "settings": {
+        "foreground": "#AD76DB"
       }
     },
     {

@@ -163,13 +163,6 @@
       }
     },
     {
-      "name": "Variables",
-      "scope": ["variable", "support.variable"],
-      "settings": {
-        "foreground": "#383A52"
-      }
-    },
-    {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
@@ -227,6 +220,13 @@
     {
       "name": "Strings: Regular Expressions",
       "scope": ["string.regexp", "constant.other.character-class.range.regexp"],
+      "settings": {
+        "foreground": "#8b3ccb"
+      }
+    },
+    {
+      "name": "Strings: Template Strings",
+      "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#8b3ccb"
       }
