@@ -24,7 +24,7 @@
     "editorBracketHighlight.foreground1": "#ACA0A0",
     "editorBracketHighlight.foreground2": "#E86E2C",
     "editorBracketHighlight.foreground3": "#2684E8",
-    "editorBracketHighlight.foreground4": "#cb3cac",
+    "editorBracketHighlight.foreground4": "#F1331E",
     "editorBracketHighlight.foreground5": "#329538",
     "editorBracketHighlight.foreground6": "#AD76DB",
     "editorGroupHeader.noTabsBackground": "#161718",
@@ -114,7 +114,7 @@
       "scope": "keyword.operator",
       "settings": {
         "fontStyle": "",
-        "foreground": "#cb3cac"
+        "foreground": "#F1331E"
       }
     },
     {
@@ -129,7 +129,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#cb3cac"
+        "foreground": "#F1331E"
       }
     },
     {
@@ -160,6 +160,13 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#2684E8"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "support.variable"],
+      "settings": {
+        "foreground": "#ACA0A0"
       }
     },
     {
@@ -214,19 +221,12 @@
       "name": "Strings: Escape Sequences",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#cb3cac"
+        "foreground": "#F1331E"
       }
     },
     {
       "name": "Strings: Regular Expressions",
       "scope": ["string.regexp", "constant.other.character-class.range.regexp"],
-      "settings": {
-        "foreground": "#AD76DB"
-      }
-    },
-    {
-      "name": "Strings: Template Strings",
-      "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#AD76DB"
       }
