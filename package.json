@@ -22,11 +22,6 @@
         "path": "./themes/noon.json"
       },
       {
-        "label": "Distractless - Dusk",
-        "uiTheme": "vs",
-        "path": "./themes/dusk.json"
-      },
-      {
         "label": "Distractless - Midnight",
         "uiTheme": "vs-dark",
         "path": "./themes/midnight.json"
