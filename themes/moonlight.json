@@ -254,14 +254,14 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#5197de"
+        "foreground": "#c4c4c4"
       }
     },
     {
       "name": "HTML: Tag Names",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#54a769"
+        "foreground": "#967ce6"
       }
     },
     {
@@ -272,7 +272,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c4c4c4"
+        "foreground": "#5197de"
       }
     },
     {
