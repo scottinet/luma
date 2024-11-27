@@ -10,8 +10,8 @@
     "commandCenter.background": "#1b2126",
     "diffEditor.insertedTextBackground": "#54a76910",
     "diffEditor.insertedLineBackground": "#54a76940",
-    "diffEditor.removedTextBackground": "#f4447530",
-    "diffEditor.removedLineBackground": "#f4447540",
+    "diffEditor.removedTextBackground": "#f1505430",
+    "diffEditor.removedLineBackground": "#f1505440",
     "dropdown.background": "#323248",
     "editor.background": "#1b2126",
     "editor.findMatchBackground": "#54a76930",
@@ -29,7 +29,7 @@
     "editorBracketHighlight.foreground6": "#967ce6",
     "editorGroupHeader.noTabsBackground": "#1b2126",
     "editorGroupHeader.tabsBackground": "#1b2126",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#f44475",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#f15054",
     "editorGutter.background": "#1b2126",
     "editorInlayHint.background": "#1b2126",
     "editorInlayHint.foreground": "#54a76950",
@@ -63,12 +63,12 @@
     "terminal.ansiBrightBlue": "#5197de",
     "terminal.ansiBrightGreen": "#54a769",
     "terminal.ansiBrightMagenta": "#967ce6",
-    "terminal.ansiBrightRed": "#f44475",
+    "terminal.ansiBrightRed": "#f15054",
     "terminal.ansiCyan": "#3ca3ad",
     "terminal.ansiBrightCyan": "#3ca3ad",
     "terminal.ansiGreen": "#54a769",
     "terminal.ansiMagenta": "#967ce6",
-    "terminal.ansiRed": "#f44475",
+    "terminal.ansiRed": "#f15054",
     "terminal.ansiYellow": "#a19339",
     "terminal.ansiBrightYellow": "#a19339",
     "terminal.foreground": "#c4c4c4",
@@ -106,7 +106,7 @@
       "name": "Invalid - Illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "#f44475"
+        "foreground": "#f15054"
       }
     },
     {
@@ -344,7 +344,7 @@
       "name": "Markup: Error",
       "scope": "markup.error",
       "settings": {
-        "foreground": "#f44475"
+        "foreground": "#f15054"
       }
     },
     {
