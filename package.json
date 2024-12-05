@@ -1,6 +1,6 @@
 {
-  "name": "distractless",
-  "displayName": "Distractless",
+  "name": "luma",
+  "displayName": "Luma",
   "description": "A soothing, distraction-free theme",
   "version": "0.0.1",
   "engines": {
@@ -12,24 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Distractless - Dawn",
+        "label": "Luma - Light",
         "uiTheme": "vs",
-        "path": "./themes/dawn.json"
+        "path": "./themes/light.json"
       },
       {
-        "label": "Distractless - Noon",
-        "uiTheme": "vs",
-        "path": "./themes/noon.json"
-      },
-      {
-        "label": "Distractless - Midnight",
+        "label": "Luma - Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/midnight.json"
-      },
-      {
-        "label": "Distractless - Moonlight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/moonlight.json"
+        "path": "./themes/dark.json"
       }
     ]
   }
