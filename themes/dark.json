@@ -46,7 +46,7 @@
     "panel.background": "#1b2126",
     "quickInput.background": "#1b2126",
     "quickInput.foreground": "#aaabb1",
-    "scrollbarSlider.background": "#323248",
+    "scrollbarSlider.background": "#54a76930",
     "searchEditor.findMatchBackground": "#54a76930",
     "selection.background": "#54a76930",
     "sideBar.background": "#1b2126",
