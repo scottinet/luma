@@ -56,6 +56,8 @@
     "statusBar.foreground": "#4f5170",
     "tab.activeBackground": "#f1f1ed",
     "tab.inactiveBackground": "#e3e3db",
+    "tab.border": "#bebebe",
+    "tab.selectedBorderTop": "#bebebe",
     "terminal.background": "#f1f1ed",
     "terminal.ansiBlack": "#4f5170",
     "terminal.ansiBrightBlack": "#4f5170",
