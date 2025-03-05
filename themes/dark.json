@@ -156,7 +156,7 @@
       "scope": ["constant.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#5197de"
+        "foreground": "#967ce6"
       }
     },
     {
@@ -183,7 +183,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#967ce6"
+        "foreground": "#5197de"
       }
     },
     {

@@ -163,7 +163,7 @@
       "scope": ["constant.language", "support.type.builtin.ts"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#1a7dff"
+        "foreground": "#885fff"
       }
     },
     {
@@ -183,7 +183,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#885fff"
+        "foreground": "#1a7dff"
       }
     },
     {
