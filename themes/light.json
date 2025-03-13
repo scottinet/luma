@@ -1,7 +1,7 @@
 {
   "name": "Luma",
   "colors": {
-    "activityBar.background": "#f1f1ed",
+    "activityBar.background": "#e3e3db",
     "activityBar.foreground": "#2f413a",
     "activityBarBadge.background": "#009f42",
     "badge.background": "#009f4260",
