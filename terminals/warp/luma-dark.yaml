@@ -1,0 +1,25 @@
+name: Luma Dark
+accent: "#a09234"
+cursor: "#95D886"
+background: "#1b2126"
+foreground: "#aaabb1"
+details: darker
+terminal_colors:
+  bright:
+    black: "#1b2126"
+    blue: "#4087cf"
+    cyan: "#32968b"
+    green: "#4b975e"
+    magenta: "#896bdf"
+    red: "#e53b45"
+    white: "#848484"
+    yellow: "#92852e"
+  normal:
+    black: "#1b2126"
+    blue: "#3d81c5"
+    cyan: "#45b3bd"
+    green: "#68d082"
+    magenta: "#967ce6"
+    red: "#f15054"
+    white: "#919191"
+    yellow: "#a09234"
