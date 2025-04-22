@@ -12,6 +12,8 @@
     "diffEditor.insertedLineBackground": "#62a65840",
     "diffEditor.removedTextBackground": "#f1505430",
     "diffEditor.removedLineBackground": "#f1505440",
+    "diffEditorOverview.insertedForeground": "#62a65870",
+    "diffEditorOverview.removedForeground": "#f1505470",
     "dropdown.background": "#323248",
     "editor.background": "#1b2126",
     "editor.findMatchBackground": "#62a65830",
