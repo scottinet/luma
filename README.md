@@ -6,3 +6,8 @@ A soothing theme, using the Oklab color space to make all accent colors of the s
 | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | ![Luma Dark Code](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png) | ![Luma Dark Code](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png) |
 | ![Luma Dark](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark.png)           | ![Luma Light](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light.png)          |
+
+
+## Terminals
+
+A few terminal profiles are included in this repository: [see here](https://github.com/scottinet/luma/tree/main/terminals)
