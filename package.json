@@ -2,7 +2,8 @@
   "name": "luma",
   "displayName": "Luma",
   "description": "A soothing, distraction-free theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "scottinet",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -13,6 +14,15 @@
     "type": "git",
     "url": "https://github.com/scottinet/luma.git"
   },
+  "homepage": "https://github.com/scottinet/luma",
+  "keywords": [
+    "theme",
+    "oklab",
+    "oklch",
+    "calming",
+    "soothing"
+  ],
+  "icon": "assets/icon.jpeg",
   "contributes": {
     "themes": [
       {
