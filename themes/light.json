@@ -151,7 +151,7 @@
         "support.type"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#a37f00"
       }
     },

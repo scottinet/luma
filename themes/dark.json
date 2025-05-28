@@ -149,7 +149,7 @@
         "support.type"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#a09234"
       }
     },
