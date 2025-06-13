@@ -1,0 +1,476 @@
+{
+  "description": "VSCode Dark Theme",
+  "target": "themes/dark.json",
+  "variant": "dark",
+  "content": {
+    "name": "Luma",
+    "colors": {
+      "activityBar.background": "{{black:dark}}",
+      "activityBar.foreground": "{{white:normal}}",
+      "activityBarBadge.background": "{{green:normal}}",
+      "badge.background": "{{green:normal;alpha:60}}",
+      "banner.background": "{{black:normal}}",
+      "button.background": "{{green:normal}}",
+      "commandCenter.background": "{{black:normal}}",
+      "diffEditor.insertedTextBackground": "{{green:normal;alpha:10}}",
+      "diffEditor.insertedLineBackground": "{{green:normal;alpha:40}}",
+      "diffEditor.removedTextBackground": "{{red:normal;alpha:30}}",
+      "diffEditor.removedLineBackground": "{{red:normal;alpha:40}}",
+      "diffEditorOverview.insertedForeground": "{{green:normal;alpha:70}}",
+      "diffEditorOverview.removedForeground": "{{red:normal;alpha:70}}",
+      "dropdown.background": "{{black:dark}}",
+      "editor.background": "{{black:normal}}",
+      "editor.findMatchBackground": "{{green:normal;alpha:30}}",
+      "editor.findMatchHighlightBackground": "{{orange:normal;alpha:40}}",
+      "editor.foreground": "{{white:normal}}",
+      "editor.lineHighlightBackground": "{{white:normal;alpha:10}}",
+      "editor.selectionBackground": "{{green:normal;alpha:30}}",
+      "editor.wordHighlightBackground": "{{green:normal;alpha:30}}",
+      "editor.wordHighlightStrongBackground": "{{green:normal;alpha:30}}",
+      "editorBracketHighlight.foreground1": "{{red:normal}}",
+      "editorBracketHighlight.foreground2": "{{orange:normal}}",
+      "editorBracketHighlight.foreground3": "{{blue:normal}}",
+      "editorBracketHighlight.foreground4": "{{yellow:normal}}",
+      "editorBracketHighlight.foreground5": "{{green:normal}}",
+      "editorBracketHighlight.foreground6": "{{magenta:normal}}",
+      "editorGroupHeader.noTabsBackground": "{{black:normal}}",
+      "editorGroupHeader.tabsBackground": "{{black:normal}}",
+      "editorBracketHighlight.unexpectedBracket.foreground": "{{red:normal}}",
+      "editorGutter.background": "{{black:normal}}",
+      "editorInlayHint.background": "{{black:normal}}",
+      "editorInlayHint.foreground": "{{green:normal;alpha:50}}",
+      "editorLineNumber.foreground": "{{white:normal;alpha:40}}",
+      "editorLineNumber.activeForeground": "{{white:normal}}",
+      "gitlens.trailingLineForegroundColor": "{{white:normal;alpha:40}}",
+      "input.background": "{{black:bright}}",
+      "list.activeSelectionBackground": "{{green:normal;alpha:30}}",
+      "list.activeSelectionForeground": "{{white:normal}}",
+      "list.dropBackground": "{{black:normal}}",
+      "list.inactiveSelectionBackground": "{{green:normal;alpha:30}}",
+      "list.inactiveSelectionForeground": "{{white:normal}}",
+      "menu.background": "{{black:normal}}",
+      "panel.background": "{{black:normal}}",
+      "quickInput.background": "{{black:normal}}",
+      "quickInput.foreground": "{{white:normal}}",
+      "scrollbarSlider.background": "{{white:normal;alpha:20}}",
+      "searchEditor.findMatchBackground": "{{green:normal;alpha:30}}",
+      "selection.background": "{{green:normal;alpha:30}}",
+      "sideBar.background": "{{black:dark}}",
+      "sideBarSectionHeader.background": "{{black:dark}}",
+      "statusBar.background": "{{black:dark}}",
+      "statusBar.debuggingBackground": "{{orange:normal;alpha:80}}",
+      "statusBar.foreground": "{{white:normal}}",
+      "tab.activeBackground": "{{black:normal}}",
+      "tab.inactiveBackground": "{{black:dark}}",
+      "tab.border": "{{black:bright}}",
+      "tab.selectedBorderTop": "{{black:bright}}",
+      "terminal.background": "{{black:normal}}",
+      "terminal.ansiBrightBlack": "{{black:bright}}",
+      "terminal.ansiBrightBlue": "{{blue:bright}}",
+      "terminal.ansiBrightCyan": "{{cyan:bright}}",
+      "terminal.ansiBrightGreen": "{{green:bright}}",
+      "terminal.ansiBrightMagenta": "{{magenta:bright}}",
+      "terminal.ansiBrightRed": "{{red:bright}}",
+      "terminal.ansiBrightYellow": "{{yellow:bright}}",
+      "terminal.ansiBlack": "{{black:normal}}",
+      "terminal.ansiBlue": "{{blue:normal}}",
+      "terminal.ansiCyan": "{{cyan:normal}}",
+      "terminal.ansiGreen": "{{green:normal}}",
+      "terminal.ansiMagenta": "{{magenta:normal}}",
+      "terminal.ansiRed": "{{red:normal}}",
+      "terminal.ansiYellow": "{{yellow:normal}}",
+      "terminal.foreground": "{{white:normal}}",
+      "titleBar.activeBackground": "{{black:dark}}",
+      "titleBar.activeForeground": "{{white:normal}}",
+      "titleBar.inactiveBackground": "{{black:dark}}",
+      "titleBar.inactiveForeground": "{{white:normal}}"
+    },
+    "tokenColors": [
+      {
+        "name": "Comments",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{green:normal}}"
+        }
+      },
+      {
+        "name": "Comments: Preprocessor",
+        "scope": "comment.block.preprocessor",
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{green:normal}}"
+        }
+      },
+      {
+        "name": "Comments: Documentation",
+        "scope": ["comment.documentation", "comment.block.documentation"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{green:normal}}"
+        }
+      },
+      {
+        "name": "Invalid - Illegal",
+        "scope": "invalid.illegal",
+        "settings": {
+          "foreground": "{{red:normal}}"
+        }
+      },
+      {
+        "name": "Operators",
+        "scope": "keyword.operator",
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{red:normal}}"
+        }
+      },
+      {
+        "name": "Operators",
+        "scope": [
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.operator.assignment",
+          "punctuation",
+          "storage.type.function.arrow",
+          "meta.brace"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Keywords",
+        "scope": [
+          "keyword",
+          "storage",
+          "keyword.operator.new",
+          "storage.type",
+          "keyword.operator.expression",
+          "support.constant",
+          "variable.language",
+          "support.type"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{yellow:normal}}"
+        }
+      },
+      {
+        "name": "Language Constants",
+        "scope": ["constant.language"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{magenta:normal}}"
+        }
+      },
+      {
+        "name": "Variables",
+        "scope": ["variable", "support.variable"],
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Functions",
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{orange:normal}}"
+        }
+      },
+      {
+        "name": "Classes",
+        "scope": [
+          "entity.name.type",
+          "entity.other.inherited-class",
+          "support.class"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{blue:normal}}"
+        }
+      },
+      {
+        "name": "Exceptions",
+        "scope": "entity.name.exception",
+        "settings": {
+          "foreground": "{{blue:normal}}"
+        }
+      },
+      {
+        "name": "Sections",
+        "scope": "entity.name.section",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": " Characters",
+        "scope": ["constant.character", "constant"],
+        "settings": {
+          "foreground": "{{cyan:normal}}"
+        }
+      },
+      {
+        "name": "Numbers",
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "{{pink:normal}}"
+        }
+      },
+      {
+        "name": "Strings",
+        "scope": "string",
+        "settings": {
+          "foreground": "{{cyan:normal}}"
+        }
+      },
+      {
+        "name": "Strings: Escape Sequences",
+        "scope": "constant.character.escape",
+        "settings": {
+          "foreground": "{{red:normal}}"
+        }
+      },
+      {
+        "name": "Strings: Regular Expressions",
+        "scope": [
+          "string.regexp",
+          "constant.other.character-class.range.regexp"
+        ],
+        "settings": {
+          "foreground": "{{magenta:normal}}"
+        }
+      },
+      {
+        "name": "Strings: Symbols",
+        "scope": "constant.other.symbol",
+        "settings": {
+          "foreground": "{{green:normal}}"
+        }
+      },
+      {
+        "name": "HTML: Doctype Declaration",
+        "scope": [
+          "meta.tag.sgml.doctype",
+          "meta.tag.sgml.doctype string",
+          "meta.tag.sgml.doctype entity.name.tag",
+          "meta.tag.sgml punctuation.definition.tag.html"
+        ],
+        "settings": {
+          "foreground": "{{green:normal}}"
+        }
+      },
+      {
+        "name": "HTML: Tags",
+        "scope": [
+          "meta.tag",
+          "punctuation.definition.tag.html",
+          "punctuation.definition.tag.begin.html",
+          "punctuation.definition.tag.end.html"
+        ],
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "HTML: Tag Names",
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "{{magenta:normal}}"
+        }
+      },
+      {
+        "name": "HTML: Attribute Names",
+        "scope": [
+          "meta.tag entity.other.attribute-name",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{blue:normal}}"
+        }
+      },
+      {
+        "name": "HTML: Entities",
+        "scope": ["constant.character.entity", "punctuation.definition.entity"],
+        "settings": {
+          "foreground": "{{yellow:normal}}"
+        }
+      },
+      {
+        "name": "CSS: Selectors",
+        "scope": [
+          "meta.selector",
+          "meta.selector entity",
+          "meta.selector entity punctuation",
+          "entity.name.tag.css"
+        ],
+        "settings": {
+          "foreground": "{{orange:normal}}"
+        }
+      },
+      {
+        "name": "CSS: Property Names",
+        "scope": ["meta.property-name", "support.type.property-name"],
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "CSS: Property Values",
+        "scope": [
+          "meta.property-value",
+          "meta.property-value constant.other",
+          "support.constant.property-value"
+        ],
+        "settings": {
+          "foreground": "{{orange:normal}}"
+        }
+      },
+      {
+        "name": "CSS: Important Keyword",
+        "scope": "keyword.other.important",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Markup: Changed",
+        "scope": "markup.changed",
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Deletion",
+        "scope": "markup.deleted",
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Emphasis",
+        "scope": "markup.italic",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Markup: Error",
+        "scope": "markup.error",
+        "settings": {
+          "foreground": "{{red:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Insertion",
+        "scope": "markup.inserted",
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Link",
+        "scope": "meta.link",
+        "settings": {
+          "foreground": "{{orange:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Output",
+        "scope": ["markup.output", "markup.raw"],
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Prompt",
+        "scope": "markup.prompt",
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Heading",
+        "scope": "markup.heading",
+        "settings": {
+          "foreground": "{{green:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Strong",
+        "scope": "markup.bold",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Markup: Traceback",
+        "scope": "markup.traceback",
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup: Underline",
+        "scope": "markup.underline",
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "name": "Markup Quote",
+        "scope": "markup.quote",
+        "settings": {
+          "foreground": "{{orange:normal}}"
+        }
+      },
+      {
+        "name": "Markup Lists",
+        "scope": "markup.list",
+        "settings": {
+          "foreground": "{{white:normal}}"
+        }
+      },
+      {
+        "name": "Markup Styling",
+        "scope": ["markup.bold", "markup.italic"],
+        "settings": {
+          "foreground": "{{blue:normal}}"
+        }
+      },
+      {
+        "name": "Markup Inline",
+        "scope": "markup.inline.raw",
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{orange:normal}}"
+        }
+      },
+      {
+        "name": "Extra: Diff Range",
+        "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+        "settings": {
+          "foreground": "{{white:dark}}"
+        }
+      },
+      {
+        "name": "Extra: Diff From",
+        "scope": "meta.diff.header.from-file",
+        "settings": {
+          "foreground": "{{white:dark}}"
+        }
+      },
+      {
+        "name": "Extra: Diff To",
+        "scope": "meta.diff.header.to-file",
+        "settings": {
+          "foreground": "{{white:dark}}"
+        }
+      }
+    ]
+  }
+}

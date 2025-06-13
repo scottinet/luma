@@ -1,0 +1,6 @@
+{
+  "description": "GhosTTY Dark Theme",
+  "target": "terminals/ghostty/LumaDark",
+  "variant": "dark",
+  "content": "palette = 0={{black:normal}}\npalette = 1={{red:normal}}\npalette = 2={{green:normal}}\npalette = 3={{yellow:normal}}\npalette = 4={{blue:normal}}\npalette = 5={{magenta:normal}}\npalette = 6={{cyan:normal}}\npalette = 7={{white:normal}}\npalette = 8={{white:dark}}\npalette = 9={{red:bright}}\npalette = 10={{green:bright}}\npalette = 11={{yellow:bright}}\npalette = 12={{blue:bright}}\npalette = 13={{magenta:bright}}\npalette = 14={{cyan:bright}}\npalette = 15={{white:bright}}\nbackground = {{black:normal}}\nforeground = {{white:normal}}\ncursor-color = {{white:dark}}\ncursor-text = {{black:normal}}\nselection-background = {{cyan:normal}}\nselection-foreground = {{black:normal}}\n"
+}

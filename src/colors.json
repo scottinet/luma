@@ -1,0 +1,106 @@
+{
+  "light": {
+    "black": {
+      "bright": "22322c",
+      "dark": "0f1915",
+      "normal": "192621"
+    },
+    "blue": {
+      "bright": "4a93e6",
+      "dark": "2e78c9",
+      "normal": "3a85d8"
+    },
+    "cyan": {
+      "bright": "2fa1b3",
+      "dark": "248594",
+      "normal": "2993a3"
+    },
+    "green": {
+      "bright": "58a654",
+      "dark": "478944",
+      "normal": "4f974c"
+    },
+    "magenta": {
+      "bright": "9a76ef",
+      "dark": "8354de",
+      "normal": "8f65e9"
+    },
+    "orange": {
+      "bright": "da6e39",
+      "dark": "b75726",
+      "normal": "ca622e"
+    },
+    "pink": {
+      "bright": "e54fa2",
+      "dark": "c63187",
+      "normal": "d63e94"
+    },
+    "red": {
+      "bright": "e85a67",
+      "dark": "ca3c4e",
+      "normal": "db4959"
+    },
+    "white": {
+      "bright": "fcfcfb",
+      "dark": "e3e3db",
+      "normal": "f1f1ed"
+    },
+    "yellow": {
+      "bright": "a7902b",
+      "dark": "897622",
+      "normal": "988326"
+    }
+  },
+  "dark": {
+    "black": {
+      "bright": "282f37",
+      "dark": "12171b",
+      "normal": "1d2329"
+    },
+    "blue": {
+      "bright": "719ee9",
+      "dark": "4f82d8",
+      "normal": "5f90e2"
+    },
+    "cyan": {
+      "bright": "43b0b6",
+      "dark": "349499",
+      "normal": "3ba2a7"
+    },
+    "green": {
+      "bright": "63b468",
+      "dark": "519755",
+      "normal": "5aa55e"
+    },
+    "magenta": {
+      "bright": "a28cec",
+      "dark": "8a6bde",
+      "normal": "967ce6"
+    },
+    "orange": {
+      "bright": "d88848",
+      "dark": "b96f33",
+      "normal": "c97c3c"
+    },
+    "pink": {
+      "bright": "e470b0",
+      "dark": "cd4c97",
+      "normal": "db5ca4"
+    },
+    "red": {
+      "bright": "e77972",
+      "dark": "d15752",
+      "normal": "dd6660"
+    },
+    "white": {
+      "bright": "d3d4d8",
+      "dark": "b7b9bf",
+      "normal": "c5c6cb"
+    },
+    "yellow": {
+      "bright": "afa041",
+      "dark": "928533",
+      "normal": "a09239"
+    }
+  }
+}

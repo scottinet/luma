@@ -1,0 +1,6 @@
+{
+  "description": "Warp Dark Theme",
+  "target": "terminals/warp/luma-dark.yaml",
+  "variant": "dark",
+  "content": "name: Luma Dark\naccent: \"{{cyan:normal}}\"\ncursor: \"{{white:dark}}\"\nbackground: \"{{black:normal}}\"\nforeground: \"{{white:normal}}\"\ndetails: darker\nterminal_colors:\n  bright:\n    black: \"{{black:bright}}\"\n    blue: \"{{blue:bright}}\"\n    cyan: \"{{cyan:bright}}\"\n    green: \"{{green:bright}}\"\n    magenta: \"{{magenta:bright}}\"\n    red: \"{{red:bright}}\"\n    white: \"{{white:bright}}\"\n    yellow: \"{{yellow:bright}}\"\n  normal:\n    black: \"{{black:normal}}\"\n    blue: \"{{blue:normal}}\"\n    cyan: \"{{cyan:normal}}\"\n    green: \"{{green:normal}}\"\n    magenta: \"{{magenta:normal}}\"\n    red: \"{{red:normal}}\"\n    white: \"{{white:normal}}\"\n    yellow: \"{{yellow:normal}}\"\n"
+}
