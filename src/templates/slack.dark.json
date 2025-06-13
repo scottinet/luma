@@ -1,0 +1,6 @@
+{
+  "description": "Slack Dark Theme",
+  "target": "slack/LumaDark",
+  "variant": "dark",
+  "content": "{{black:normal}},{{cyan:normal}},{{green:normal}},{{red:normal}}"
+}
