@@ -1,25 +1,25 @@
 name: Luma Light
 accent: "#248595"
-cursor: "#213135"
-background: "#dfe4e4"
-foreground: "#182528"
+cursor: "#2f2f27"
+background: "#e3e3dd"
+foreground: "#23231d"
 details: darker
 terminal_colors:
   bright:
-    black: "#213135"
+    black: "#2f2f27"
     blue: "#3a85d8"
     cyan: "#2993a4"
     green: "#4f974c"
     magenta: "#8f65e9"
     red: "#db4959"
-    white: "#eff1f1"
+    white: "#f1f1ee"
     yellow: "#988326"
   normal:
-    black: "#182528"
+    black: "#23231d"
     blue: "#2f78c8"
     cyan: "#248595"
     green: "#478944"
     magenta: "#8354de"
     red: "#ca3c4e"
-    white: "#dfe4e4"
+    white: "#e3e3dd"
     yellow: "#897622"
