@@ -281,7 +281,7 @@
         "name": "HTML: Tag Names",
         "scope": "entity.name.tag",
         "settings": {
-          "foreground": "{{magenta:normal}}"
+          "foreground": "{{blue:normal}}"
         }
       },
       {
@@ -292,7 +292,7 @@
         ],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "{{blue:normal}}"
+          "foreground": "{{yellow:normal}}"
         }
       },
       {
