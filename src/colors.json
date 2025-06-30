@@ -1,9 +1,9 @@
 {
   "light": {
     "black": {
-      "bright": "2f2f27",
-      "dark": "171712",
-      "normal": "23231d"
+      "bright": "2b2e38",
+      "dark": "14161c",
+      "normal": "20222a"
     },
     "blue": {
       "bright": "3a85d8",
@@ -41,9 +41,9 @@
       "normal": "ca3c4e"
     },
     "white": {
-      "bright": "f1f1ee",
-      "dark": "d5d5cd",
-      "normal": "e3e3dd"
+      "bright": "f1f1ed",
+      "dark": "d5d5ca",
+      "normal": "e3e3db"
     },
     "yellow": {
       "bright": "988326",
@@ -53,9 +53,9 @@
   },
   "dark": {
     "black": {
-      "bright": "2f2f27",
-      "dark": "171712",
-      "normal": "23231d"
+      "bright": "2b2e38",
+      "dark": "14161c",
+      "normal": "20222a"
     },
     "blue": {
       "bright": "719ee9",
@@ -93,9 +93,9 @@
       "normal": "dd6660"
     },
     "white": {
-      "bright": "d5d5cd",
-      "dark": "bbb9ae",
-      "normal": "c9c7bd"
+      "bright": "b9b9b9",
+      "dark": "9e9e9e",
+      "normal": "ababab"
     },
     "yellow": {
       "bright": "afa041",

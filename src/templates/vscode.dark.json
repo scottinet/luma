@@ -18,7 +18,7 @@
       "diffEditor.removedLineBackground": "{{red:normal;alpha:40}}",
       "diffEditorOverview.insertedForeground": "{{green:normal;alpha:70}}",
       "diffEditorOverview.removedForeground": "{{red:normal;alpha:70}}",
-      "dropdown.background": "{{black:dark}}",
+      "dropdown.background": "{{black:bright}}",
       "editor.background": "{{black:normal}}",
       "editor.findMatchBackground": "{{green:normal;alpha:30}}",
       "editor.findMatchHighlightBackground": "{{orange:normal;alpha:40}}",
