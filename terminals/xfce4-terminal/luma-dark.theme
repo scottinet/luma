@@ -1,0 +1,7 @@
+[Scheme]
+Name=Luma Dark
+ColorForeground=#ababab
+ColorBackground=#20222a
+ColorCursor=#9e9e9e
+ColorPalette=#20222a;#dd6660;#5aa55e;#a09239;#5f90e2;#967ce6;#3ba2a7;#ababab;#9e9e9e;#e77972;#63b468;#afa041;#719ee9;#a28cec;#43b0b6;#b9b9b9
+ColorCursorUseDefault=FALSE

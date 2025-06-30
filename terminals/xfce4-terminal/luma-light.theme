@@ -1,0 +1,7 @@
+[Scheme]
+Name=Luma Light
+ColorForeground=#20222a
+ColorBackground=#e3e3db
+ColorCursor=#2b2e38
+ColorPalette=#e3e3db;#ca3c4e;#478944;#897622;#2f78c8;#8354de;#248595;#2b2e38;#2b2e38;#db4959;#4f974c;#988326;#3a85d8;#8f65e9;#2993a4;#f1f1ed
+ColorCursorUseDefault=FALSE

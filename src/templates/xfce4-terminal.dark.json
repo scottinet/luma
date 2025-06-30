@@ -1,0 +1,6 @@
+{
+  "description": "XFCE4 Terminal Dark Theme",
+  "target": "terminals/xfce4-terminal/luma-dark.theme",
+  "variant": "dark",
+  "content": "[Scheme]\nName=Luma Dark\nColorForeground={{white:normal}}\nColorBackground={{black:normal}}\nColorCursor={{white:dark}}\nColorPalette={{black:normal}};{{red:normal}};{{green:normal}};{{yellow:normal}};{{blue:normal}};{{magenta:normal}};{{cyan:normal}};{{white:normal}};{{white:dark}};{{red:bright}};{{green:bright}};{{yellow:bright}};{{blue:bright}};{{magenta:bright}};{{cyan:bright}};{{white:bright}}\nColorCursorUseDefault=FALSE\n"
+}

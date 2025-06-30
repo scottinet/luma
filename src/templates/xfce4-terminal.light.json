@@ -1,0 +1,6 @@
+{
+  "description": "XFCE4 Terminal Light Theme",
+  "target": "terminals/xfce4-terminal/luma-light.theme",
+  "variant": "light",
+  "content": "[Scheme]\nName=Luma Light\nColorForeground={{black:normal}}\nColorBackground={{white:normal}}\nColorCursor={{black:bright}}\nColorPalette={{white:normal}};{{red:normal}};{{green:normal}};{{yellow:normal}};{{blue:normal}};{{magenta:normal}};{{cyan:normal}};{{black:bright}};{{black:bright}};{{red:bright}};{{green:bright}};{{yellow:bright}};{{blue:bright}};{{magenta:bright}};{{cyan:bright}};{{white:bright}}\nColorCursorUseDefault=FALSE\n"
+}
