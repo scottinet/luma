@@ -1,0 +1,23 @@
+{
+  "name": "Luma Light",
+  "cursorColor": "#2b2e38",
+  "background": "#e3e3db",
+  "foreground": "#20222a",
+  "selectionBackground": "#2993a4",
+  "black": "#20222a",
+  "blue": "#2f78c8",
+  "cyan": "#248595",
+  "green": "#478944",
+  "purple": "#8354de",
+  "red": "#ca3c4e",
+  "white": "#2b2e38",
+  "yellow": "#897622",
+  "brightBlack": "#2b2e38",
+  "brightBlue": "#3a85d8",
+  "brightCyan": "#2993a4",
+  "brightGreen": "#4f974c",
+  "brightPurple": "#8f65e9",
+  "brightRed": "#db4959",
+  "brightWhite": "#f1f1ed",
+  "brightYellow": "#988326"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Luma Dark",
+  "cursorColor": "#b9b9b9",
+  "background": "#20222a",
+  "foreground": "#ababab",
+  "selectionBackground": "#349499",
+  "black": "#20222a",
+  "blue": "#5f90e2",
+  "cyan": "#3ba2a7",
+  "green": "#5aa55e",
+  "purple": "#967ce6",
+  "red": "#dd6660",
+  "white": "#ababab",
+  "yellow": "#a09239",
+  "brightBlack": "#2b2e38",
+  "brightBlue": "#719ee9",
+  "brightCyan": "#43b0b6",
+  "brightGreen": "#63b468",
+  "brightPurple": "#a28cec",
+  "brightRed": "#e77972",
+  "brightWhite": "#b9b9b9",
+  "brightYellow": "#afa041"
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Windows Terminal Dark Theme",
+  "target": "terminals/windows-terminal/luma-dark.json",
+  "variant": "dark",
+  "content": {
+    "name": "Luma Dark",
+    "cursorColor": "{{white:bright}}",
+    "background": "{{black:normal}}",
+    "foreground": "{{white:normal}}",
+    "selectionBackground": "{{cyan:dark}}",
+    "black": "{{black:normal}}",
+    "blue": "{{blue:normal}}",
+    "cyan": "{{cyan:normal}}",
+    "green": "{{green:normal}}",
+    "purple": "{{magenta:normal}}",
+    "red": "{{red:normal}}",
+    "white": "{{white:normal}}",
+    "yellow": "{{yellow:normal}}",
+    "brightBlack": "{{black:bright}}",
+    "brightBlue": "{{blue:bright}}",
+    "brightCyan": "{{cyan:bright}}",
+    "brightGreen": "{{green:bright}}",
+    "brightPurple": "{{magenta:bright}}",
+    "brightRed": "{{red:bright}}",
+    "brightWhite": "{{white:bright}}",
+    "brightYellow": "{{yellow:bright}}"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Windows Terminal Light Theme",
+  "target": "terminals/windows-terminal/luma-light.json",
+  "variant": "light",
+  "content": {
+    "name": "Luma Light",
+    "cursorColor": "{{black:bright}}",
+    "background": "{{white:normal}}",
+    "foreground": "{{black:normal}}",
+    "selectionBackground": "{{cyan:bright}}",
+    "black": "{{black:normal}}",
+    "blue": "{{blue:normal}}",
+    "cyan": "{{cyan:normal}}",
+    "green": "{{green:normal}}",
+    "purple": "{{magenta:normal}}",
+    "red": "{{red:normal}}",
+    "white": "{{black:bright}}",
+    "yellow": "{{yellow:normal}}",
+    "brightBlack": "{{black:bright}}",
+    "brightBlue": "{{blue:bright}}",
+    "brightCyan": "{{cyan:bright}}",
+    "brightGreen": "{{green:bright}}",
+    "brightPurple": "{{magenta:bright}}",
+    "brightRed": "{{red:bright}}",
+    "brightWhite": "{{white:bright}}",
+    "brightYellow": "{{yellow:bright}}"
+  }
+}
