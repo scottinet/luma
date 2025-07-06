@@ -8,7 +8,7 @@
     "background": "{{white:normal}}",
     "foreground": "{{black:normal}}",
     "selectionBackground": "{{cyan:bright}}",
-    "black": "{{black:normal}}",
+    "black": "{{white:dark}}",
     "blue": "{{blue:normal}}",
     "cyan": "{{cyan:normal}}",
     "green": "{{green:normal}}",
