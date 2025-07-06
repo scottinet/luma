@@ -16,7 +16,7 @@
     "red": "{{red:normal}}",
     "white": "{{white:normal}}",
     "yellow": "{{yellow:normal}}",
-    "brightBlack": "{{black:bright}}",
+    "brightBlack": "{{white:dark}}",
     "brightBlue": "{{blue:bright}}",
     "brightCyan": "{{cyan:bright}}",
     "brightGreen": "{{green:bright}}",
