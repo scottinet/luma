@@ -16,7 +16,7 @@ interface Pattern {
   color: string;
   modifier: "bright" | "normal" | "dark";
   alpha?: number;
-  format: "hex" | "rgb";
+  format: "hex" | "rgb" | "pdict";
 }
 
 function isPattern(obj: Record<string, any>): obj is Pattern {
@@ -26,7 +26,7 @@ function isPattern(obj: Record<string, any>): obj is Pattern {
     ["bright", "normal", "dark"].includes(obj.modifier) &&
     (obj.alpha === undefined || !isNaN(obj.alpha)) &&
     typeof obj.format === "string" &&
-    ["hex", "rgb"].includes(obj.format)
+    ["hex", "rgb", "pdict"].includes(obj.format)
   );
 }
 
@@ -67,6 +67,19 @@ function patternToString(input: FileTemplate, pattern: Pattern): string {
       }
 
       return `${r},${g},${b}`;
+    case "pdict":
+      return `<dict>
+  <key>Color Space</key>
+  <string>sRGB</string>
+  <key>Red Component</key>
+  <real>${parseInt(color.slice(0, 2), 16) / 255}</real>
+  <key>Green Component</key>
+  <real>${parseInt(color.slice(2, 4), 16) / 255}</real>
+  <key>Blue Component</key>
+  <real>${parseInt(color.slice(4, 6), 16) / 255}</real>
+  <key>Alpha Component</key>
+  <real>${pattern.alpha ? pattern.alpha / 100 : 1}</real>
+</dict>`;
   }
 }
 

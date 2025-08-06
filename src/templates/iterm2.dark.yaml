@@ -1,0 +1,58 @@
+description: iTerm2 Dark Theme
+target: terminals/iterm2/Luma-dark.itermcolors
+variant: dark
+content: |
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+    <dict>
+      <key>Background Color</key>
+      {{black:normal;format:pdict}}
+      <key>Foreground Color</key>
+      {{white:normal;format:pdict}}
+      <key>Cursor Color</key>
+      {{white:dark;format:pdict}}
+      <key>Cursor Text Color</key>
+      {{black:normal;format:pdict}}
+      <key>Selection Color</key>
+      {{cyan:normal;format:pdict}}
+      <key>Selected Text Color</key>
+      {{black:normal;format:pdict}}
+      <key>Ansi 0 Color</key>
+      {{black:normal;format:pdict}}
+      <key>Ansi 1 Color</key>
+      {{red:normal;format:pdict}}
+      <key>Ansi 2 Color</key>
+      {{green:normal;format:pdict}}
+      <key>Ansi 3 Color</key>
+      {{yellow:normal;format:pdict}}
+      <key>Ansi 4 Color</key>
+      {{blue:normal;format:pdict}}
+      <key>Ansi 5 Color</key>
+      {{magenta:normal;format:pdict}}
+      <key>Ansi 6 Color</key>
+      {{cyan:normal;format:pdict}}
+      <key>Ansi 7 Color</key>
+      {{white:normal;format:pdict}}
+      <key>Ansi 8 Color</key>
+      {{white:dark;format:pdict}}
+      <key>Ansi 9 Color</key>
+      {{red:bright;format:pdict}}
+      <key>Ansi 10 Color</key>
+      {{green:bright;format:pdict}}
+      <key>Ansi 11 Color</key>
+      {{yellow:bright;format:pdict}}
+      <key>Ansi 12 Color</key>
+      {{blue:bright;format:pdict}}
+      <key>Ansi 13 Color</key>
+      {{magenta:bright;format:pdict}}
+      <key>Ansi 14 Color</key>
+      {{cyan:bright;format:pdict}}
+      <key>Ansi 15 Color</key>
+      {{white:bright;format:pdict}}
+      <key>Bold Color</key>
+      {{white:bright;format:pdict}}
+      <key>Link Color</key>
+      {{blue:normal;format:pdict}}
+    </dict>
+  </plist>
