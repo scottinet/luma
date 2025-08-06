@@ -1,6 +1,0 @@
-{
-  "description": "GhosTTY Light Theme",
-  "target": "terminals/ghostty/LumaLight",
-  "variant": "light",
-  "content": "palette = 0={{white:normal}}\npalette = 1={{red:normal}}\npalette = 2={{green:normal}}\npalette = 3={{yellow:normal}}\npalette = 4={{blue:normal}}\npalette = 5={{magenta:normal}}\npalette = 6={{cyan:normal}}\npalette = 7={{black:bright}}\npalette = 8={{black:bright}}\npalette = 9={{red:bright}}\npalette = 10={{green:bright}}\npalette = 11={{yellow:bright}}\npalette = 12={{blue:bright}}\npalette = 13={{magenta:bright}}\npalette = 14={{cyan:bright}}\npalette = 15={{white:bright}}\npalette = 184={{yellow:dark}}\npalette = 185={{yellow:normal}}\npalette = 220={{yellow:normal}}\nbackground = {{white:normal}}\nforeground = {{black:normal}}\ncursor-color = {{black:bright}}\ncursor-text = {{white:normal}}\nselection-background = {{cyan:normal}}\nselection-foreground = {{white:normal}}\n"
-}

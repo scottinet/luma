@@ -1,0 +1,29 @@
+description: Warp Light Theme
+target: terminals/warp/luma-light.yaml
+variant: light
+content: |
+  name: Luma Light
+  accent: "{{cyan:normal}}"
+  cursor: "{{black:bright}}"
+  background: "{{white:normal}}"
+  foreground: "{{black:normal}}"
+  details: darker
+  terminal_colors:
+    bright:
+      black: "{{black:bright}}"
+      blue: "{{blue:bright}}"
+      cyan: "{{cyan:bright}}"
+      green: "{{green:bright}}"
+      magenta: "{{magenta:bright}}"
+      red: "{{red:bright}}"
+      white: "{{white:bright}}"
+      yellow: "{{yellow:bright}}"
+    normal:
+      black: "{{black:normal}}"
+      blue: "{{blue:normal}}"
+      cyan: "{{cyan:normal}}"
+      green: "{{green:normal}}"
+      magenta: "{{magenta:normal}}"
+      red: "{{red:normal}}"
+      white: "{{white:normal}}"
+      yellow: "{{yellow:normal}}"

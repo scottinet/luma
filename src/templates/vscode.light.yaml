@@ -1,8 +1,8 @@
-{
-  "description": "VSCode Light Theme",
-  "target": "themes/light.json",
-  "variant": "light",
-  "content": {
+description: VSCode Light Theme
+target: themes/light.json
+variant: light
+content: |
+  {
     "name": "Luma",
     "colors": {
       "activityBar.background": "{{white:dark}}",
@@ -475,4 +475,3 @@
       }
     ]
   }
-}

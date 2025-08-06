@@ -1,5 +1,6 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { parse as parseYaml } from "yaml";
 import colors from "./colors.json";
 
 const availableVariants: string[] = Object.keys(colors);
@@ -118,7 +119,7 @@ async function applyTemplate(input: FileTemplate): Promise<void> {
 }
 
 function parse(buf: Buffer): FileTemplate {
-  let parsed: Record<string, unknown> = JSON.parse(buf.toString("utf-8"));
+  let parsed: Record<string, unknown> = parseYaml(buf.toString("utf-8"));
 
   if (isTemplate(parsed)) {
     return parsed;

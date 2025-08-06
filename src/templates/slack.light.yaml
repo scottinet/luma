@@ -1,0 +1,5 @@
+description: Slack Light Theme
+target: slack/LumaLight
+variant: light
+content: |
+  {{white:normal}}{{cyan:normal}}{{green:normal}}{{red:normal}}

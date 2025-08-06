@@ -1,8 +1,8 @@
-{
-  "description": "Windows Terminal Dark Theme",
-  "target": "terminals/windows-terminal/luma-dark.json",
-  "variant": "dark",
-  "content": {
+description: Windows Terminal Dark Theme
+target: terminals/windows-terminal/luma-dark.json
+variant: dark
+content: |
+  {
     "name": "Luma Dark",
     "cursorColor": "{{white:bright}}",
     "background": "{{black:normal}}",
@@ -25,4 +25,3 @@
     "brightWhite": "{{white:bright}}",
     "brightYellow": "{{yellow:bright}}"
   }
-}

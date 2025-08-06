@@ -1,0 +1,104 @@
+description: Konsole Light Theme
+target: terminals/konsole/luma-light.colorscheme
+variant: light
+content: |
+  [Background]
+  Color={{white:normal;format:rgb}}
+
+  [BackgroundFaint]
+  Color={{white:bright;format:rgb}}
+
+  [BackgroundIntense]
+  Color={{white:dark;format:rgb}}
+
+  [Color0]
+  Color={{white:normal;format:rgb}}
+
+  [Color0Faint]
+  Color={{black:normal;format:rgb}}
+
+  [Color0Intense]
+  Color={{white:dark;format:rgb}}
+
+  [Color1]
+  Color={{red:normal;format:rgb}}
+
+  [Color1Faint]
+  Color={{red:dark;format:rgb}}
+
+  [Color1Intense]
+  Color={{red:bright;format:rgb}}
+
+  [Color2]
+  Color={{green:normal;format:rgb}}
+
+  [Color2Faint]
+  Color={{green:dark;format:rgb}}
+
+  [Color2Intense]
+  Color={{green:bright;format:rgb}}
+
+  [Color3]
+  Color={{yellow:normal;format:rgb}}
+
+  [Color3Faint]
+  Color={{yellow:dark;format:rgb}}
+
+  [Color3Intense]
+  Color={{yellow:bright;format:rgb}}
+
+  [Color4]
+  Color={{blue:normal;format:rgb}}
+
+  [Color4Faint]
+  Color={{blue:dark;format:rgb}}
+
+  [Color4Intense]
+  Color={{blue:bright;format:rgb}}
+
+  [Color5]
+  Color={{magenta:normal;format:rgb}}
+
+  [Color5Faint]
+  Color={{magenta:dark;format:rgb}}
+
+  [Color5Intense]
+  Color={{magenta:bright;format:rgb}}
+
+  [Color6]
+  Color={{cyan:normal;format:rgb}}
+
+  [Color6Faint]
+  Color={{cyan:dark;format:rgb}}
+
+  [Color6Intense]
+  Color={{cyan:bright;format:rgb}}
+
+  [Color7]
+  Color={{black:dark;format:rgb}}
+
+  [Color7Faint]
+  Color={{black:dark;format:rgb}}
+
+  [Color7Intense]
+  Color={{black:normal;format:rgb}}
+
+  [Foreground]
+  Color={{black:normal;format:rgb}}
+
+  [ForegroundFaint]
+  Color={{black:dark;format:rgb}}
+
+  [ForegroundIntense]
+  Color={{black:bright;format:rgb}}
+
+  [General]
+  Anchor=0.5,0.5
+  Blur=false
+  ColorRandomization=false
+  Description=Luma Light
+  FillStyle=Tile
+  Opacity=1
+  Wallpaper=
+  WallpaperFlipType=NoFlip
+  WallpaperOpacity=1

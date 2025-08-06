@@ -1,0 +1,29 @@
+description: GhosTTY Light Theme
+target: terminals/ghostty/LumaLight
+variant: light
+content: |
+  palette = 0={{white:normal}}
+  palette = 1={{red:normal}}
+  palette = 2={{green:normal}}
+  palette = 3={{yellow:normal}}
+  palette = 4={{blue:normal}}
+  palette = 5={{magenta:normal}}
+  palette = 6={{cyan:normal}}
+  palette = 7={{black:bright}}
+  palette = 8={{black:bright}}
+  palette = 9={{red:bright}}
+  palette = 10={{green:bright}}
+  palette = 11={{yellow:bright}}
+  palette = 12={{blue:bright}}
+  palette = 13={{magenta:bright}}
+  palette = 14={{cyan:bright}}
+  palette = 15={{white:bright}}
+  palette = 184={{yellow:dark}}
+  palette = 185={{yellow:normal}}
+  palette = 220={{yellow:normal}}
+  background = {{white:normal}}
+  foreground = {{black:normal}}
+  cursor-color = {{black:bright}}
+  cursor-text = {{white:normal}}
+  selection-background = {{cyan:normal}}
+  selection-foreground = {{white:normal}}

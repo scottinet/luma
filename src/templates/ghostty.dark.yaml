@@ -1,0 +1,26 @@
+description: GhosTTY Dark Theme
+target: terminals/ghostty/LumaDark
+variant: dark
+content: |
+  palette = 0={{black:normal}}
+  palette = 1={{red:normal}}
+  palette = 2={{green:normal}}
+  palette = 3={{yellow:normal}}
+  palette = 4={{blue:normal}}
+  palette = 5={{magenta:normal}}
+  palette = 6={{cyan:normal}}
+  palette = 7={{white:normal}}
+  palette = 8={{white:dark}}
+  palette = 9={{red:bright}}
+  palette = 10={{green:bright}}
+  palette = 11={{yellow:bright}}
+  palette = 12={{blue:bright}}
+  palette = 13={{magenta:bright}}
+  palette = 14={{cyan:bright}}
+  palette = 15={{white:bright}}
+  background = {{black:normal}}
+  foreground = {{white:normal}}
+  cursor-color = {{white:dark}}
+  cursor-text = {{black:normal}}
+  selection-background = {{cyan:normal}}
+  selection-foreground = {{black:normal}}
