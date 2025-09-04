@@ -40,7 +40,7 @@ content: |
       "editorGroupHeader.tabsBackground": "{{white:normal}}",
       "editorGutter.background": "{{white:normal}}",
       "editorInlayHint.background": "{{white:normal}}",
-      "editorInlayHint.foreground": "{{cyan:normal;alpha:50}}",
+      "editorInlayHint.foreground": "{{green:normal}}",
       "editorLineNumber.foreground": "{{black:normal;alpha:40}}",
       "editorLineNumber.activeForeground": "{{black:normal}}",
       "gitlens.trailingLineForegroundColor": "{{black:normal;alpha:40}}",

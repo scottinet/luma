@@ -34,7 +34,7 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#dd6660",
     "editorGutter.background": "#20222a",
     "editorInlayHint.background": "#20222a",
-    "editorInlayHint.foreground": "#5aa55e50",
+    "editorInlayHint.foreground": "#5aa55e",
     "editorLineNumber.foreground": "#ababab40",
     "editorLineNumber.activeForeground": "#ababab",
     "gitlens.trailingLineForegroundColor": "#ababab40",

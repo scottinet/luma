@@ -36,7 +36,7 @@
     "editorGroupHeader.tabsBackground": "#e3e3db",
     "editorGutter.background": "#e3e3db",
     "editorInlayHint.background": "#e3e3db",
-    "editorInlayHint.foreground": "#24859550",
+    "editorInlayHint.foreground": "#478944",
     "editorLineNumber.foreground": "#20222a40",
     "editorLineNumber.activeForeground": "#20222a",
     "gitlens.trailingLineForegroundColor": "#20222a40",

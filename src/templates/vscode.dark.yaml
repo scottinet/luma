@@ -38,7 +38,7 @@ content: |
       "editorBracketHighlight.unexpectedBracket.foreground": "{{red:normal}}",
       "editorGutter.background": "{{black:normal}}",
       "editorInlayHint.background": "{{black:normal}}",
-      "editorInlayHint.foreground": "{{green:normal;alpha:50}}",
+      "editorInlayHint.foreground": "{{green:normal}}",
       "editorLineNumber.foreground": "{{white:normal;alpha:40}}",
       "editorLineNumber.activeForeground": "{{white:normal}}",
       "gitlens.trailingLineForegroundColor": "{{white:normal;alpha:40}}",
