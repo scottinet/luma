@@ -1,5 +1,5 @@
 description: VSCode Dark Theme
-target: themes/dark.json
+target: themes/editors/vscode/luma-dark.json
 variant: dark
 content: |
   {

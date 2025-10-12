@@ -1,5 +1,5 @@
 description: Konsole Dark Theme
-target: terminals/konsole/luma-dark.colorscheme
+target: themes/terminals/konsole/luma-dark.colorscheme
 variant: dark
 content: |
   [Background]

@@ -1,5 +1,5 @@
 description: GhosTTY Dark Theme
-target: terminals/ghostty/LumaDark
+target: themes/terminals/ghostty/LumaDark
 variant: dark
 content: |
   palette = 0={{black:normal}}

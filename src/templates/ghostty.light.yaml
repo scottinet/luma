@@ -1,5 +1,5 @@
 description: GhosTTY Light Theme
-target: terminals/ghostty/LumaLight
+target: themes/terminals/ghostty/LumaLight
 variant: light
 content: |
   palette = 0={{white:normal}}

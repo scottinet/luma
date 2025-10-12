@@ -1,5 +1,5 @@
 description: iTerm2 Light Theme
-target: terminals/iterm2/Luma-light.itermcolors
+target: themes/terminals/iterm2/Luma-light.itermcolors
 variant: light
 content: |
   <?xml version="1.0" encoding="UTF-8"?>

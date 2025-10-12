@@ -1,5 +1,5 @@
 description: VSCode Light Theme
-target: themes/light.json
+target: themes/editors/vscode/luma-light.json
 variant: light
 content: |
   {

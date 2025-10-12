@@ -1,5 +1,5 @@
 description: Windows Terminal Dark Theme
-target: terminals/windows-terminal/luma-dark.json
+target: themes/terminals/windows-terminal/luma-dark.json
 variant: dark
 content: |
   {

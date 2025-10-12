@@ -1,5 +1,5 @@
 description: iTerm2 Dark Theme
-target: terminals/iterm2/Luma-dark.itermcolors
+target: themes/terminals/iterm2/Luma-dark.itermcolors
 variant: dark
 content: |
   <?xml version="1.0" encoding="UTF-8"?>

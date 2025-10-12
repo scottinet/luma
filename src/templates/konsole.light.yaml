@@ -1,5 +1,5 @@
 description: Konsole Light Theme
-target: terminals/konsole/luma-light.colorscheme
+target: themes/terminals/konsole/luma-light.colorscheme
 variant: light
 content: |
   [Background]

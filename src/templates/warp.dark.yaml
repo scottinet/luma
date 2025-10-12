@@ -1,5 +1,5 @@
 description: Warp Dark Theme
-target: terminals/warp/luma-dark.yaml
+target: themes/terminals/warp/luma-dark.yaml
 variant: dark
 content: |
   name: Luma Dark

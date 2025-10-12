@@ -1,5 +1,5 @@
 description: XFCE4 Terminal Light Theme
-target: terminals/xfce4-terminal/luma-light.theme
+target: themes/terminals/xfce4-terminal/luma-light.theme
 variant: light
 content: |
   [Scheme]

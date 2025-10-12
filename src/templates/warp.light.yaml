@@ -1,5 +1,5 @@
 description: Warp Light Theme
-target: terminals/warp/luma-light.yaml
+target: themes/terminals/warp/luma-light.yaml
 variant: light
 content: |
   name: Luma Light

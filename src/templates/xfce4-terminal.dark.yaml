@@ -1,5 +1,5 @@
 description: XFCE4 Terminal Dark Theme
-target: terminals/xfce4-terminal/luma-dark.theme
+target: themes/terminals/xfce4-terminal/luma-dark.theme
 variant: dark
 content: |
   [Scheme]
