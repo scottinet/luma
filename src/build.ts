@@ -8,33 +8,35 @@ const availableVariants: string[] = Object.keys(colors);
 interface FileTemplate {
   description?: string;
   target: string;
-  variant: string;
+  variant?: string;
   content: string | Record<string, unknown>;
 }
 
 interface Pattern {
   color: string;
-  modifier: "bright" | "normal" | "dark";
-  alpha?: number;
+  luminosity: "brighter" | "normal" | "darker";
   format: "hex" | "rgb" | "pdict";
+  variant: string;
+  alpha?: number;
 }
 
 function isPattern(obj: Record<string, any>): obj is Pattern {
   return (
     typeof obj.color === "string" &&
-    typeof obj.modifier === "string" &&
-    ["bright", "normal", "dark"].includes(obj.modifier) &&
+    typeof obj.luminosity === "string" &&
+    ["brighter", "normal", "darker"].includes(obj.luminosity) &&
     (obj.alpha === undefined || !isNaN(obj.alpha)) &&
     typeof obj.format === "string" &&
-    ["hex", "rgb", "pdict"].includes(obj.format)
+    ["hex", "rgb", "pdict"].includes(obj.format) &&
+    availableVariants.includes(obj.variant)
   );
 }
 
 function isTemplate(obj: Record<string, any>): obj is FileTemplate {
   return (
     typeof obj.target === "string" &&
-    typeof obj.variant === "string" &&
-    availableVariants.includes(obj.variant) &&
+    (typeof obj.variant === "undefined" ||
+      availableVariants.includes(obj.variant)) &&
     (typeof obj.content === "string" ||
       (!!obj.content &&
         typeof obj.content === "object" &&
@@ -43,11 +45,11 @@ function isTemplate(obj: Record<string, any>): obj is FileTemplate {
   );
 }
 
-function patternToString(input: FileTemplate, pattern: Pattern): string {
+function patternToString(pattern: Pattern): string {
   const color =
-    colors[input.variant as keyof typeof colors]?.[
+    colors[pattern.variant as keyof typeof colors]?.[
       pattern.color as keyof typeof colors.light
-    ]?.[pattern.modifier];
+    ]?.[pattern.luminosity];
 
   if (!color) {
     throw new Error(`invalid pattern ${JSON.stringify(pattern)}`);
@@ -88,10 +90,6 @@ async function applyTemplate(input: FileTemplate): Promise<void> {
     typeof input.content === "string"
       ? input.content
       : JSON.stringify(input.content);
-  const availableColors = Object.keys(
-    colors[input.variant as keyof typeof colors] ?? {}
-  );
-
   const applied = text.replace(
     /\{\{([\w;:]+)\}\}/g,
     (match: string, p: string) => {
@@ -100,34 +98,34 @@ async function applyTemplate(input: FileTemplate): Promise<void> {
           const [k, v] = val.split(":");
 
           if (k === "alpha") {
-            acc.alpha = parseInt(v);
-          } else if (availableColors.includes(k)) {
-            acc.color = k;
-            acc.modifier = v;
+            acc.alpha = Number.parseInt(v, 10);
           } else {
             acc[k] = v;
           }
 
+          acc.variant ??= input.variant;
+          acc.luminosity ??= "normal";
+
           return acc;
         },
-        { format: "hex" } as Record<string, any>
+        { format: "hex" } as Record<string, any>,
       );
 
       if (!isPattern(pattern)) {
         throw new Error(
-          `invalid pattern "${match} (parsed: "${JSON.stringify(pattern)}")"`
+          `invalid pattern "${match} (parsed: "${JSON.stringify(pattern)}")"`,
         );
       }
 
-      return patternToString(input, pattern);
-    }
+      return patternToString(pattern);
+    },
   );
 
   await writeFile(
     path.join(process.cwd(), input.target),
     typeof input.content === "string"
       ? applied
-      : JSON.stringify(JSON.parse(applied), null, 2)
+      : JSON.stringify(JSON.parse(applied), null, 2),
   );
 }
 
@@ -162,7 +160,7 @@ async function run(): Promise<void> {
     }
 
     console.info(
-      `Generated: ${parsed.description ?? "template"} (${parsed.target})`
+      `Generated: ${parsed.description ?? "template"} (${parsed.target})`,
     );
   }
 }

@@ -1,0 +1,280 @@
+description: Zed Dark and Light Themes
+target: themes/editors/zed/luma.json
+content: |
+  {
+    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+    "author": "Sebastien Cottinet",
+    "name": "Luma",
+    "themes": [
+      {
+        "name": "Luma Dark",
+        "appearance": "dark",
+        "style": {
+          "background.appearance": "opaque",
+          "accents": [],
+          "elevated_surface.background": "{{color:black;luminosity:brighter;variant:dark}}",
+          "surface.background": "{{color:black;variant:dark}}",
+          "background": "{{color:black;variant:dark}}",
+          "element.background": "{{color:cyan;variant:dark}}",
+          "element.selected": "{{color:cyan;variant:dark;alpha:30}}",
+          "drop_target.background": "{{color:black;variant:dark}}",
+          "ghost_element.selected": "{{color:cyan;variant:dark;alpha:30}}",
+          "status_bar.background": "{{color:black:dark;variant:dark}}",
+          "title_bar.background": "{{color:black:dark;variant:dark}}",
+          "toolbar.background": "{{color:black;variant:dark}}",
+          "tab_bar.background": "{{color:black;variant:dark}}",
+          "tab.inactive_background": "{{color:black:dark;variant:dark}}",
+          "tab.active_background": "{{color:black;variant:dark}}",
+          "search.match_background": "{{color:green;variant:dark;alpha:30}}",
+          "panel.background": "{{color:black;variant:dark}}",
+          "scrollbar.thumb.background": "{{color:white;variant:dark;alpha:20}}",
+          "scrollbar.thumb.border": "{{color:white;variant:dark;alpha:20}}",
+          "scrollbar.track.background": "{{color:black;variant:dark}}",
+          "editor.foreground": "{{color:white;variant:dark}}",
+          "editor.background": "{{color:black;variant:dark}}",
+          "editor.gutter.background": "{{color:black;variant:dark}}",
+          "editor.active_line.background": "{{color:white;variant:dark:alpha:10}}",
+          "editor.line_number": "{{color:white;variant:dark;alpha:40}}",
+          "editor.active_line_number": "{{color:white;variant:dark}}",
+          "terminal.background": "{{color:black;variant:dark}}",
+          "terminal.ansi.black": "{{color:black;variant:dark}}",
+          "terminal.ansi.bright_black": "{{color:black;luminosity:brighter;variant:dark}}",
+          "terminal.ansi.red": "{{color:red;variant:dark}}",
+          "terminal.ansi.bright_red": "{{color:red;luminosity:brighter;variant:dark}}",
+          "terminal.ansi.green": "{{color:green;variant:dark}}",
+          "terminal.ansi.bright_green": "{{color:green;luminosity:brighter;variant:dark}}",
+          "terminal.ansi.yellow": "{{color:yellow;variant:dark}}",
+          "terminal.ansi.bright_yellow": "{{color:yellow;luminosity:brighter;variant:dark}}",
+          "terminal.ansi.blue": "{{color:blue;variant:dark}}",
+          "terminal.ansi.bright_blue": "{{color:blue;luminosity:brighter;variant:dark}}",
+          "terminal.ansi.magenta": "{{color:magenta;variant:dark}}",
+          "terminal.ansi.bright_magenta": "{{color:magenta;luminosity:brighter;variant:dark}}",
+          "terminal.ansi.cyan": "{{color:cyan;variant:dark}}",
+          "terminal.ansi.bright_cyan": "{{color:cyan;luminosity:brighter;variant:dark}}",
+          "hint": "{{color:green;variant:dark}}",
+          "players": [],
+          "syntax": {
+            "boolean": {
+              "color": "{{color:magenta;variant:dark}}",
+              "font_style": "italic"
+            },
+            "comment": {
+              "color": "{{color:green;variant:dark}}",
+              "font_style": "italic"
+            },
+            "comment.doc": {
+              "color": "{{color:green;variant:dark}}",
+              "font_style": "italic"
+            },
+            "constant": {
+              "color": "{{color:cyan;variant:dark}}"
+            },
+            "constructor": {
+              "color": "{{color:blue;variant:dark}}"
+            },
+            "emphasis": {
+              "color": "{{color:blue;variant:dark}}"
+            },
+            "emphasis.strong": {
+              "color": "{{color:blue;variant:dark}}"
+            },
+            "function": {
+              "color": "{{color:orange;variant:dark}}"
+            },
+            "keyword": {
+              "color": "{{color:yellow;variant:dark}}"
+            },
+            "number": {
+              "color": "{{color:pink;variant:dark}}"
+            },
+            "operator": {
+              "color": "{{color:red;variant:dark}}"
+            },
+            "property": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "punctuation": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "punctuation.bracket": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "punctuation.delimiter": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "punctuation.list_marker": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "punctuation.special": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "string": {
+              "color": "{{color:cyan;variant:dark}}"
+            },
+            "string.escape": {
+              "color": "{{color:cyan;variant:dark}}"
+            },
+            "string.regex": {
+              "color": "{{color:cyan;variant:dark}}"
+            },
+            "string.special": {
+              "color": "{{color:green;variant:dark}}"
+            },
+            "string.special.symbol": {
+              "color": "{{color:green;variant:dark}}"
+            },
+            "tag": {
+              "color": "{{color:blue;variant:dark}}"
+            },
+            "text.literal": {
+              "color": "{{color:cyan;variant:dark}}"
+            },
+            "type": {
+              "color": "{{color:blue;variant:dark}}"
+            },
+            "variable": {
+              "color": "{{color:white;variant:dark}}"
+            },
+            "variable.special": {
+              "color": "{{color:yellow;variant:dark}}"
+            }
+          }
+        }
+      },
+      {
+        "name": "Luma Light",
+        "appearance": "light",
+        "style": {
+          "background.appearance": "opaque",
+          "accents": [],
+          "elevated_surface.background": "{{color:white;luminosity:brighter;variant:light}}",
+          "surface.background": "{{color:white;variant:light}}",
+          "background": "{{color:white;variant:light}}",
+          "element.background": "{{color:cyan;variant:light}}",
+          "element.selected": "{{color:cyan;variant:light;alpha:30}}",
+          "drop_target.background": "{{color:white;variant:light}}",
+          "ghost_element.selected": "{{color:cyan;variant:light;alpha:30}}",
+          "status_bar.background": "{{color:white;luminosity:darker;variant:light}}",
+          "title_bar.background": "{{color:white;luminosity:darker;variant:light}}",
+          "toolbar.background": "{{color:white;variant:light}}",
+          "tab_bar.background": "{{color:white;variant:light}}",
+          "tab.inactive_background": "{{color:white;luminosity:darker;variant:light}}",
+          "tab.active_background": "{{color:white;variant:light}}",
+          "search.match_background": "{{color:cyan;variant:light;alpha:30}}",
+          "panel.background": "{{color:white;variant:light}}",
+          "scrollbar.thumb.background": "{{color:black;variant:light;alpha:30}}",
+          "scrollbar.thumb.border": "{{color:black;variant:light;alpha:30}}",
+          "scrollbar.track.background": "{{color:white;variant:light}}",
+          "editor.foreground": "{{color:black;variant:light}}",
+          "editor.background": "{{color:white;variant:light}}",
+          "editor.gutter.background": "{{color:white;variant:light}}",
+          "editor.active_line.background": "{{color:white;luminosity:darker;variant:light}}",
+          "editor.line_number": "{{color:black;variant:light;alpha:40}}",
+          "editor.active_line_number": "{{color:black;variant:light}}",
+          "terminal.background": "{{color:white;variant:light}}",
+          "terminal.ansi.black": "{{color:black;variant:light}}",
+          "terminal.ansi.bright_black": "{{color:black;luminosity:brighter;variant:light}}",
+          "terminal.ansi.red": "{{color:red;variant:light}}",
+          "terminal.ansi.bright_red": "{{color:red;luminosity:brighter;variant:light}}",
+          "terminal.ansi.green": "{{color:green;variant:light}}",
+          "terminal.ansi.bright_green": "{{color:green;luminosity:brighter;variant:light}}",
+          "terminal.ansi.yellow": "{{color:yellow;variant:light}}",
+          "terminal.ansi.bright_yellow": "{{color:yellow;luminosity:brighter;variant:light}}",
+          "terminal.ansi.blue": "{{color:blue;variant:light}}",
+          "terminal.ansi.bright_blue": "{{color:blue;luminosity:brighter;variant:light}}",
+          "terminal.ansi.magenta": "{{color:magenta;variant:light}}",
+          "terminal.ansi.bright_magenta": "{{color:magenta;luminosity:brighter;variant:light}}",
+          "terminal.ansi.cyan": "{{color:cyan;variant:light}}",
+          "terminal.ansi.bright_cyan": "{{color:cyan;luminosity:brighter;variant:light}}",
+          "hint": "{{color:green;variant:light}}",
+          "players": [],
+          "syntax": {
+            "boolean": {
+              "color": "{{color:magenta;variant:light}}",
+              "font_style": "italic"
+            },
+            "comment": {
+              "color": "{{color:green;variant:light}}",
+              "font_style": "italic"
+            },
+            "comment.doc": {
+              "color": "{{color:green;variant:light}}",
+              "font_style": "italic"
+            },
+            "constant": {
+              "color": "{{color:green;variant:light}}"
+            },
+            "constructor": {
+              "color": "{{color:blue;variant:light}}"
+            },
+            "emphasis": {
+              "color": "{{color:magenta;variant:light}}"
+            },
+            "emphasis.strong": {
+              "color": "{{color:magenta;variant:light}}"
+            },
+            "function": {
+              "color": "{{color:orange;variant:light}}"
+            },
+            "keyword": {
+              "color": "{{color:yellow;variant:light}}"
+            },
+            "number": {
+              "color": "{{color:pink;variant:light}}"
+            },
+            "operator": {
+              "color": "{{color:red;variant:light}}"
+            },
+            "property": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "punctuation": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "punctuation.bracket": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "punctuation.delimiter": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "punctuation.list_marker": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "punctuation.special": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "string": {
+              "color": "{{color:cyan;variant:light}}"
+            },
+            "string.escape": {
+              "color": "{{color:green;variant:light}}"
+            },
+            "string.regex": {
+              "color": "{{color:cyan;variant:light}}"
+            },
+            "string.special": {
+              "color": "{{color:cyan;variant:light}}"
+            },
+            "string.special.symbol": {
+              "color": "{{color:cyan;variant:light}}"
+            },
+            "tag": {
+              "color": "{{color:blue;variant:light}}"
+            },
+            "text.literal": {
+              "color": "{{color:cyan;variant:light}}"
+            },
+            "type": {
+              "color": "{{color:blue;variant:light}}"
+            },
+            "variable": {
+              "color": "{{color:black;variant:light}}"
+            },
+            "variable.special": {
+              "color": "{{color:yellow;variant:light}}"
+            }
+          }
+        }
+      }
+    ]
+  }

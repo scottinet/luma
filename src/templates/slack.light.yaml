@@ -2,4 +2,4 @@ description: Slack Light Theme
 target: themes/others/slack/LumaLight
 variant: light
 content: |
-  {{white:normal}}{{cyan:normal}}{{green:normal}}{{red:normal}}
+  {{color:white}}{{color:cyan}}{{color:green}}{{color:red}}

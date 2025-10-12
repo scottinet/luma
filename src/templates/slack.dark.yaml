@@ -2,4 +2,4 @@ description: Slack Dark Theme
 target: themes/others/slack/LumaDark
 variant: dark
 content: |
-  {{black:normal}}{{cyan:normal}}{{green:normal}}{{red:normal}}
+  {{color:black}}{{color:cyan}}{{color:green}}{{color:red}}

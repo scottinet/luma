@@ -7,52 +7,52 @@ content: |
   <plist version="1.0">
     <dict>
       <key>Background Color</key>
-      {{black:normal;format:pdict}}
+      {{color:black;format:pdict}}
       <key>Foreground Color</key>
-      {{white:normal;format:pdict}}
+      {{color:white;format:pdict}}
       <key>Cursor Color</key>
-      {{white:dark;format:pdict}}
+      {{color:white;luminosity:darker;format:pdict}}
       <key>Cursor Text Color</key>
-      {{black:normal;format:pdict}}
+      {{color:black;format:pdict}}
       <key>Selection Color</key>
-      {{cyan:normal;format:pdict}}
+      {{color:cyan;format:pdict}}
       <key>Selected Text Color</key>
-      {{black:normal;format:pdict}}
+      {{color:black;format:pdict}}
       <key>Ansi 0 Color</key>
-      {{black:normal;format:pdict}}
+      {{color:black;format:pdict}}
       <key>Ansi 1 Color</key>
-      {{red:normal;format:pdict}}
+      {{color:red;format:pdict}}
       <key>Ansi 2 Color</key>
-      {{green:normal;format:pdict}}
+      {{color:green;format:pdict}}
       <key>Ansi 3 Color</key>
-      {{yellow:normal;format:pdict}}
+      {{color:yellow;format:pdict}}
       <key>Ansi 4 Color</key>
-      {{blue:normal;format:pdict}}
+      {{color:blue;format:pdict}}
       <key>Ansi 5 Color</key>
-      {{magenta:normal;format:pdict}}
+      {{color:magenta;format:pdict}}
       <key>Ansi 6 Color</key>
-      {{cyan:normal;format:pdict}}
+      {{color:cyan;format:pdict}}
       <key>Ansi 7 Color</key>
-      {{white:normal;format:pdict}}
+      {{color:white;format:pdict}}
       <key>Ansi 8 Color</key>
-      {{white:dark;format:pdict}}
+      {{color:white;luminosity:darker;format:pdict}}
       <key>Ansi 9 Color</key>
-      {{red:bright;format:pdict}}
+      {{color:red;luminosity:brighter;format:pdict}}
       <key>Ansi 10 Color</key>
-      {{green:bright;format:pdict}}
+      {{color:green;luminosity:brighter;format:pdict}}
       <key>Ansi 11 Color</key>
-      {{yellow:bright;format:pdict}}
+      {{color:yellow;luminosity:brighter;format:pdict}}
       <key>Ansi 12 Color</key>
-      {{blue:bright;format:pdict}}
+      {{color:blue;luminosity:brighter;format:pdict}}
       <key>Ansi 13 Color</key>
-      {{magenta:bright;format:pdict}}
+      {{color:magenta;luminosity:brighter;format:pdict}}
       <key>Ansi 14 Color</key>
-      {{cyan:bright;format:pdict}}
+      {{color:cyan;luminosity:brighter;format:pdict}}
       <key>Ansi 15 Color</key>
-      {{white:bright;format:pdict}}
+      {{color:white;luminosity:brighter;format:pdict}}
       <key>Bold Color</key>
-      {{white:bright;format:pdict}}
+      {{color:white;luminosity:brighter;format:pdict}}
       <key>Link Color</key>
-      {{blue:normal;format:pdict}}
+      {{color:blue;format:pdict}}
     </dict>
   </plist>

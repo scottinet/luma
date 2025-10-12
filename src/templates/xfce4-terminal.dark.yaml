@@ -4,8 +4,8 @@ variant: dark
 content: |
   [Scheme]
   Name=Luma Dark
-  ColorForeground={{white:normal}}
-  ColorBackground={{black:normal}}
-  ColorCursor={{white:dark}}
-  ColorPalette={{black:normal}};{{red:normal}};{{green:normal}};{{yellow:normal}};{{blue:normal}};{{magenta:normal}};{{cyan:normal}};{{white:normal}};{{white:dark}};{{red:bright}};{{green:bright}};{{yellow:bright}};{{blue:bright}};{{magenta:bright}};{{cyan:bright}};{{white:bright}}
+  ColorForeground={{color:white}}
+  ColorBackground={{color:black}}
+  ColorCursor={{color:white;luminosity:darker}}
+  ColorPalette={{color:black}};{{color:red}};{{color:green}};{{color:yellow}};{{color:blue}};{{color:magenta}};{{color:cyan}};{{color:white}};{{color:white;luminosity:darker}};{{color:red;luminosity:brighter}};{{color:green;luminosity:brighter}};{{color:yellow;luminosity:brighter}};{{color:blue;luminosity:brighter}};{{color:magenta;luminosity:brighter}};{{color:cyan;luminosity:brighter}};{{color:white;luminosity:brighter}}
   ColorCursorUseDefault=FALSE

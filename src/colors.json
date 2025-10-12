@@ -1,105 +1,105 @@
 {
   "light": {
     "black": {
-      "bright": "2b2e38",
-      "dark": "14161c",
+      "brighter": "2b2e38",
+      "darker": "14161c",
       "normal": "20222a"
     },
     "blue": {
-      "bright": "3a85d8",
-      "dark": "266bb6",
+      "brighter": "3a85d8",
+      "darker": "266bb6",
       "normal": "2f78c8"
     },
     "cyan": {
-      "bright": "2993a4",
-      "dark": "1f7785",
+      "brighter": "2993a4",
+      "darker": "1f7785",
       "normal": "248595"
     },
     "green": {
-      "bright": "4f974c",
-      "dark": "3f7b3c",
+      "brighter": "4f974c",
+      "darker": "3f7b3c",
       "normal": "478944"
     },
     "magenta": {
-      "bright": "8f65e9",
-      "dark": "7745d0",
+      "brighter": "8f65e9",
+      "darker": "7745d0",
       "normal": "8354de"
     },
     "orange": {
-      "bright": "ca622e",
-      "dark": "a54d20",
+      "brighter": "ca622e",
+      "darker": "a54d20",
       "normal": "b75726"
     },
     "pink": {
-      "bright": "d63e94",
-      "dark": "b42779",
+      "brighter": "d63e94",
+      "darker": "b42779",
       "normal": "c63187"
     },
     "red": {
-      "bright": "db4959",
-      "dark": "b73244",
+      "brighter": "db4959",
+      "darker": "b73244",
       "normal": "ca3c4e"
     },
     "white": {
-      "bright": "f1f1ed",
-      "dark": "d5d5ca",
+      "brighter": "f1f1ed",
+      "darker": "d5d5ca",
       "normal": "e3e3db"
     },
     "yellow": {
-      "bright": "988326",
-      "dark": "7b6a1d",
+      "brighter": "988326",
+      "darker": "7b6a1d",
       "normal": "897622"
     }
   },
   "dark": {
     "black": {
-      "bright": "2b2e38",
-      "dark": "14161c",
+      "brighter": "2b2e38",
+      "darker": "14161c",
       "normal": "20222a"
     },
     "blue": {
-      "bright": "719ee9",
-      "dark": "4f82d8",
+      "brighter": "719ee9",
+      "darker": "4f82d8",
       "normal": "5f90e2"
     },
     "cyan": {
-      "bright": "43b0b6",
-      "dark": "349499",
+      "brighter": "43b0b6",
+      "darker": "349499",
       "normal": "3ba2a7"
     },
     "green": {
-      "bright": "63b468",
-      "dark": "519755",
+      "brighter": "63b468",
+      "darker": "519755",
       "normal": "5aa55e"
     },
     "magenta": {
-      "bright": "a28cec",
-      "dark": "8a6bde",
+      "brighter": "a28cec",
+      "darker": "8a6bde",
       "normal": "967ce6"
     },
     "orange": {
-      "bright": "d88848",
-      "dark": "b96f33",
+      "brighter": "d88848",
+      "darker": "b96f33",
       "normal": "c97c3c"
     },
     "pink": {
-      "bright": "e470b0",
-      "dark": "cd4c97",
+      "brighter": "e470b0",
+      "darker": "cd4c97",
       "normal": "db5ca4"
     },
     "red": {
-      "bright": "e77972",
-      "dark": "d15752",
+      "brighter": "e77972",
+      "darker": "d15752",
       "normal": "dd6660"
     },
     "white": {
-      "bright": "b9b9b9",
-      "dark": "9e9e9e",
+      "brighter": "b9b9b9",
+      "darker": "9e9e9e",
       "normal": "ababab"
     },
     "yellow": {
-      "bright": "afa041",
-      "dark": "928533",
+      "brighter": "afa041",
+      "darker": "928533",
       "normal": "a09239"
     }
   }
