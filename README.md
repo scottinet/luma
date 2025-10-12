@@ -10,4 +10,4 @@ A soothing theme, using the Oklab color space to make all accent colors of the s
 
 ## Terminals
 
-A few terminal profiles are included in this repository: [see here](https://github.com/scottinet/luma/tree/main/terminals)
+A few terminal profiles are included in this repository: [see here](https://github.com/scottinet/luma/tree/main/themes/terminals)

@@ -1,7 +1,10 @@
 {
   "name": "luma",
   "displayName": "Luma",
-  "description": "A soothing, distraction-free theme",
+  "description": "A soothing, low-intensity colors theme",
+  "author": {
+    "name": "Sébastien Cottinet"
+  },
   "version": "2.0.0",
   "publisher": "scottinet",
   "engines": {
