@@ -2,3 +2,10 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+node_modules/**
+themes/**
+!themes/editors/vscode
+src/**
+tsconfig.json
+*.vsix
+**/.DS_Store
