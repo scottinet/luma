@@ -36,6 +36,7 @@ content: |
           "editor.active_line.background": "{{color:white;variant:dark;alpha:10}}",
           "editor.line_number": "{{color:white;variant:dark;alpha:40}}",
           "editor.active_line_number": "{{color:white;variant:dark}}",
+          "modified": "{{color:blue;variant:dark}}",
           "terminal.background": "{{color:black;variant:dark}}",
           "terminal.ansi.black": "{{color:black;variant:dark}}",
           "terminal.ansi.bright_black": "{{color:black;luminosity:brighter;variant:dark}}",
@@ -65,9 +66,6 @@ content: |
             "comment.doc": {
               "color": "{{color:green;variant:dark}}",
               "font_style": "italic"
-            },
-            "constant": {
-              "color": "{{color:cyan;variant:dark}}"
             },
             "constructor": {
               "color": "{{color:blue;variant:dark}}"
@@ -171,6 +169,7 @@ content: |
           "editor.active_line.background": "{{color:white;luminosity:darker;variant:light}}",
           "editor.line_number": "{{color:black;variant:light;alpha:40}}",
           "editor.active_line_number": "{{color:black;variant:light}}",
+          "modified": "{{color:blue;variant:light}}",
           "terminal.background": "{{color:white;variant:light}}",
           "terminal.ansi.black": "{{color:black;variant:light}}",
           "terminal.ansi.bright_black": "{{color:black;luminosity:brighter;variant:light}}",
@@ -200,9 +199,6 @@ content: |
             "comment.doc": {
               "color": "{{color:green;variant:light}}",
               "font_style": "italic"
-            },
-            "constant": {
-              "color": "{{color:green;variant:light}}"
             },
             "constructor": {
               "color": "{{color:blue;variant:light}}"
