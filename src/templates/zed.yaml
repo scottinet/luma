@@ -33,7 +33,7 @@ content: |
           "editor.foreground": "{{color:white;variant:dark}}",
           "editor.background": "{{color:black;variant:dark}}",
           "editor.gutter.background": "{{color:black;variant:dark}}",
-          "editor.active_line.background": "{{color:white;variant:dark:alpha:10}}",
+          "editor.active_line.background": "{{color:white;variant:dark;alpha:10}}",
           "editor.line_number": "{{color:white;variant:dark;alpha:40}}",
           "editor.active_line_number": "{{color:white;variant:dark}}",
           "terminal.background": "{{color:black;variant:dark}}",

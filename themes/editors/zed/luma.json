@@ -30,7 +30,7 @@
         "editor.foreground": "#ababab",
         "editor.background": "#20222a",
         "editor.gutter.background": "#20222a",
-        "editor.active_line.background": "#ababab",
+        "editor.active_line.background": "#ababab10",
         "editor.line_number": "#ababab40",
         "editor.active_line_number": "#ababab",
         "terminal.background": "#20222a",
