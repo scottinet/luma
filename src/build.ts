@@ -59,9 +59,9 @@ function patternToString(pattern: Pattern): string {
     case "hex":
       return `#${color}${pattern.alpha ?? ""}`;
     case "rgb":
-      const r = parseInt(color.slice(0, 2), 16);
-      const g = parseInt(color.slice(2, 4), 16);
-      const b = parseInt(color.slice(4, 6), 16);
+      const r = Number.parseInt(color.slice(0, 2), 16);
+      const g = Number.parseInt(color.slice(2, 4), 16);
+      const b = Number.parseInt(color.slice(4, 6), 16);
 
       if (pattern.alpha) {
         const alpha = pattern.alpha / 100;
@@ -74,11 +74,11 @@ function patternToString(pattern: Pattern): string {
   <key>Color Space</key>
   <string>sRGB</string>
   <key>Red Component</key>
-  <real>${parseInt(color.slice(0, 2), 16) / 255}</real>
+  <real>${Number.parseInt(color.slice(0, 2), 16) / 255}</real>
   <key>Green Component</key>
-  <real>${parseInt(color.slice(2, 4), 16) / 255}</real>
+  <real>${Number.parseInt(color.slice(2, 4), 16) / 255}</real>
   <key>Blue Component</key>
-  <real>${parseInt(color.slice(4, 6), 16) / 255}</real>
+  <real>${Number.parseInt(color.slice(4, 6), 16) / 255}</real>
   <key>Alpha Component</key>
   <real>${pattern.alpha ? pattern.alpha / 100 : 1}</real>
 </dict>`;
