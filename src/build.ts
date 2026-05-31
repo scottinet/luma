@@ -1,9 +1,10 @@
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { parse as parseYaml } from "yaml";
 import colors from "./colors.json";
 
 const availableVariants: string[] = Object.keys(colors);
+const availableLuminosities = ["brighter", "normal", "darker"] as const;
 
 interface FileTemplate {
   description?: string;
@@ -18,17 +19,26 @@ interface Pattern {
   format: "hex" | "rgb" | "pdict";
   variant: string;
   alpha?: number;
+  over?: string;
+  overLuminosity?: "brighter" | "normal" | "darker";
 }
 
 function isPattern(obj: Record<string, any>): obj is Pattern {
   return (
     typeof obj.color === "string" &&
     typeof obj.luminosity === "string" &&
-    ["brighter", "normal", "darker"].includes(obj.luminosity) &&
+    availableLuminosities.includes(obj.luminosity) &&
     (obj.alpha === undefined || !isNaN(obj.alpha)) &&
     typeof obj.format === "string" &&
     ["hex", "rgb", "pdict"].includes(obj.format) &&
-    availableVariants.includes(obj.variant)
+    availableVariants.includes(obj.variant) &&
+    (obj.over === undefined ||
+      (typeof obj.over === "string" &&
+        !!colors[obj.variant as keyof typeof colors]?.[
+          obj.over as keyof typeof colors.light
+        ])) &&
+    (obj.overLuminosity === undefined ||
+      availableLuminosities.includes(obj.overLuminosity))
   );
 }
 
@@ -45,6 +55,22 @@ function isTemplate(obj: Record<string, any>): obj is FileTemplate {
   );
 }
 
+function blendOverBackground(
+  fgHex: string,
+  bgHex: string,
+  alphaPercent: number,
+): string {
+  const a = alphaPercent / 100;
+  const channel = (offset: number) => {
+    const fg = Number.parseInt(fgHex.slice(offset, offset + 2), 16);
+    const bg = Number.parseInt(bgHex.slice(offset, offset + 2), 16);
+    return Math.round(fg * a + bg * (1 - a))
+      .toString(16)
+      .padStart(2, "0");
+  };
+  return `${channel(0)}${channel(2)}${channel(4)}`;
+}
+
 function patternToString(pattern: Pattern): string {
   const color =
     colors[pattern.variant as keyof typeof colors]?.[
@@ -57,6 +83,13 @@ function patternToString(pattern: Pattern): string {
 
   switch (pattern.format) {
     case "hex":
+      if (pattern.alpha !== undefined && pattern.over) {
+        const bg =
+          colors[pattern.variant as keyof typeof colors][
+            pattern.over as keyof typeof colors.light
+          ][pattern.overLuminosity ?? "normal"];
+        return `#${blendOverBackground(color, bg, pattern.alpha)}`;
+      }
       return `#${color}${pattern.alpha ?? ""}`;
     case "rgb":
       const r = Number.parseInt(color.slice(0, 2), 16);
@@ -91,7 +124,7 @@ async function applyTemplate(input: FileTemplate): Promise<void> {
       ? input.content
       : JSON.stringify(input.content);
   const applied = text.replace(
-    /\{\{([\w;:]+)\}\}/g,
+    /\{\{([\w;:-]+)\}\}/g,
     (match: string, p: string) => {
       const pattern: Record<string, any> = p.split(";").reduce(
         (acc, val) => {
@@ -99,6 +132,10 @@ async function applyTemplate(input: FileTemplate): Promise<void> {
 
           if (k === "alpha") {
             acc.alpha = Number.parseInt(v, 10);
+          } else if (k === "over") {
+            const [oc, ol] = v.split("-");
+            acc.over = oc;
+            if (ol) acc.overLuminosity = ol;
           } else {
             acc[k] = v;
           }
@@ -121,8 +158,10 @@ async function applyTemplate(input: FileTemplate): Promise<void> {
     },
   );
 
+  const targetPath = path.join(process.cwd(), input.target);
+  await mkdir(path.dirname(targetPath), { recursive: true });
   await writeFile(
-    path.join(process.cwd(), input.target),
+    targetPath,
     typeof input.content === "string"
       ? applied
       : JSON.stringify(JSON.parse(applied), null, 2),

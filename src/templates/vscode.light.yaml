@@ -210,9 +210,9 @@ content: |
       },
       {
         "name": "Characters",
-        "scope": ["constant.numeric", "constant.character", "constant"],
+        "scope": ["constant.character", "constant"],
         "settings": {
-          "foreground": "{{color:green}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {

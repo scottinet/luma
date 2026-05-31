@@ -207,10 +207,10 @@ content: |
         }
       },
       {
-        "name": " Characters",
+        "name": "Characters",
         "scope": ["constant.character", "constant"],
         "settings": {
-          "foreground": "{{color:cyan}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {
@@ -231,7 +231,7 @@ content: |
         "name": "Strings: Escape Sequences",
         "scope": "constant.character.escape",
         "settings": {
-          "foreground": "{{color:red}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {

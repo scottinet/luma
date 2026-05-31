@@ -62,6 +62,9 @@ content: |
               "color": "{{color:magenta;variant:dark}}",
               "font_style": "italic"
             },
+            "character": {
+              "color": "{{color:pink;variant:dark}}"
+            },
             "comment": {
               "color": "{{color:green;variant:dark}}",
               "font_style": "italic"
@@ -113,10 +116,10 @@ content: |
               "color": "{{color:cyan;variant:dark}}"
             },
             "string.escape": {
-              "color": "{{color:cyan;variant:dark}}"
+              "color": "{{color:pink;variant:dark}}"
             },
             "string.regex": {
-              "color": "{{color:cyan;variant:dark}}"
+              "color": "{{color:magenta;variant:dark}}"
             },
             "string.special": {
               "color": "{{color:green;variant:dark}}"
@@ -198,6 +201,9 @@ content: |
               "color": "{{color:magenta;variant:light}}",
               "font_style": "italic"
             },
+            "character": {
+              "color": "{{color:pink;variant:light}}"
+            },
             "comment": {
               "color": "{{color:green;variant:light}}",
               "font_style": "italic"
@@ -249,10 +255,10 @@ content: |
               "color": "{{color:cyan;variant:light}}"
             },
             "string.escape": {
-              "color": "{{color:green;variant:light}}"
+              "color": "{{color:pink;variant:light}}"
             },
             "string.regex": {
-              "color": "{{color:cyan;variant:light}}"
+              "color": "{{color:magenta;variant:light}}"
             },
             "string.special": {
               "color": "{{color:cyan;variant:light}}"

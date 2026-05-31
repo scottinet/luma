@@ -44,7 +44,8 @@
     ]
   },
   "scripts": {
-    "build": "tsx src/build.ts"
+    "build": "tsx src/build.ts",
+    "package": "vsce package --readme-path themes/editors/vscode/README.md"
   },
   "devDependencies": {
     "@types/node": "^24.0.1",

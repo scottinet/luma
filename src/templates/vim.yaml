@@ -1,0 +1,455 @@
+description: Vim/Neovim Colorscheme
+target: colors/luma.vim
+content: |
+  " Luma — A soothing colorscheme using the Oklab color space.
+  " Author: Sébastien Cottinet
+  " Generated from src/templates/vim.yaml — do not edit directly.
+  "
+  " 24-bit color is required: `set termguicolors`.
+
+  hi clear
+  if exists("syntax_on") | syntax reset | endif
+  let g:colors_name = "luma"
+
+  if &background ==# "dark"
+    " ===== Editor UI =====
+    hi Normal          guifg={{color:white;variant:dark}}                        guibg={{color:black;variant:dark}}
+    hi NormalNC        guifg={{color:white;variant:dark}}                        guibg={{color:black;variant:dark}}
+    hi NormalFloat     guifg={{color:white;variant:dark}}                        guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi FloatBorder     guifg={{color:white;luminosity:darker;variant:dark}}      guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi FloatTitle      guifg={{color:white;variant:dark}}                        guibg={{color:black;luminosity:brighter;variant:dark}} gui=bold cterm=bold
+    hi LineNr          guifg={{color:white;variant:dark;alpha:40;over:black}}    guibg={{color:black;variant:dark}}
+    hi LineNrAbove     guifg={{color:white;variant:dark;alpha:40;over:black}}    guibg={{color:black;variant:dark}}
+    hi LineNrBelow     guifg={{color:white;variant:dark;alpha:40;over:black}}    guibg={{color:black;variant:dark}}
+    hi CursorLineNr    guifg={{color:white;variant:dark}}                        guibg={{color:black;luminosity:brighter;variant:dark}} gui=bold cterm=bold
+    hi CursorLine                                                                 guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi CursorColumn                                                               guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi ColorColumn                                                                guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi SignColumn                                                                 guibg={{color:black;variant:dark}}
+    hi Folded          guifg={{color:white;luminosity:darker;variant:dark}}      guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi FoldColumn      guifg={{color:white;luminosity:darker;variant:dark}}      guibg={{color:black;variant:dark}}
+    hi VertSplit       guifg={{color:black;luminosity:brighter;variant:dark}}
+    hi WinSeparator    guifg={{color:black;luminosity:brighter;variant:dark}}
+    hi StatusLine      guifg={{color:white;variant:dark}}                        guibg={{color:black;luminosity:darker;variant:dark}}
+    hi StatusLineNC    guifg={{color:white;luminosity:darker;variant:dark}}      guibg={{color:black;luminosity:darker;variant:dark}}
+    hi TabLine         guifg={{color:white;luminosity:darker;variant:dark}}      guibg={{color:black;luminosity:darker;variant:dark}}
+    hi TabLineSel      guifg={{color:white;variant:dark}}                        guibg={{color:black;variant:dark}} gui=bold cterm=bold
+    hi TabLineFill                                                                guibg={{color:black;luminosity:darker;variant:dark}}
+    hi Pmenu           guifg={{color:white;variant:dark}}                        guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi PmenuSel        guifg={{color:white;variant:dark}}                        guibg={{color:cyan;luminosity:darker;variant:dark}} gui=bold cterm=bold
+    hi PmenuSbar                                                                  guibg={{color:black;luminosity:brighter;variant:dark}}
+    hi PmenuThumb                                                                 guibg={{color:white;variant:dark;alpha:20;over:black}}
+    hi Visual                                                                     guibg={{color:cyan;variant:dark;alpha:30;over:black}}
+    hi VisualNOS                                                                  guibg={{color:cyan;variant:dark;alpha:30;over:black}}
+    hi Search          guifg={{color:black;variant:dark}}                        guibg={{color:orange;variant:dark;alpha:60;over:black}}
+    hi IncSearch       guifg={{color:black;variant:dark}}                        guibg={{color:green;variant:dark}}
+    hi CurSearch       guifg={{color:black;variant:dark}}                        guibg={{color:orange;variant:dark}}
+    hi MatchParen      guifg={{color:cyan;luminosity:brighter;variant:dark}}     guibg=NONE gui=bold,underline cterm=bold,underline
+    hi NonText         guifg={{color:white;variant:dark;alpha:30;over:black}}
+    hi SpecialKey      guifg={{color:white;variant:dark;alpha:30;over:black}}
+    hi EndOfBuffer     guifg={{color:white;variant:dark;alpha:20;over:black}}
+    hi Whitespace      guifg={{color:white;variant:dark;alpha:20;over:black}}
+    hi Directory       guifg={{color:blue;variant:dark}}
+    hi Title           guifg={{color:green;variant:dark}}                        gui=bold cterm=bold
+    hi Question        guifg={{color:cyan;variant:dark}}
+    hi ErrorMsg        guifg={{color:red;variant:dark}}
+    hi WarningMsg      guifg={{color:yellow;variant:dark}}
+    hi ModeMsg         guifg={{color:white;variant:dark}}
+    hi MoreMsg         guifg={{color:cyan;variant:dark}}
+    hi WildMenu        guifg={{color:white;variant:dark}}                        guibg={{color:cyan;luminosity:darker;variant:dark}}
+    hi QuickFixLine                                                               guibg={{color:cyan;variant:dark;alpha:30;over:black}}
+    hi Conceal         guifg={{color:white;variant:dark;alpha:40;over:black}}
+    hi Cursor          guifg={{color:black;variant:dark}}                        guibg={{color:white;luminosity:darker;variant:dark}}
+    hi lCursor         guifg={{color:black;variant:dark}}                        guibg={{color:white;luminosity:darker;variant:dark}}
+    hi TermCursor      guifg={{color:black;variant:dark}}                        guibg={{color:white;luminosity:darker;variant:dark}}
+
+    " ===== Diff =====
+    hi DiffAdd                                                                    guibg={{color:green;variant:dark;alpha:20;over:black}}
+    hi DiffChange                                                                 guibg={{color:yellow;variant:dark;alpha:20;over:black}}
+    hi DiffDelete      guifg={{color:red;variant:dark}}                          guibg={{color:red;variant:dark;alpha:20;over:black}}
+    hi DiffText                                                                   guibg={{color:green;variant:dark;alpha:40;over:black}}
+
+    " ===== Spell =====
+    hi SpellBad        guisp={{color:red;variant:dark}}                          gui=undercurl cterm=undercurl
+    hi SpellCap        guisp={{color:yellow;variant:dark}}                       gui=undercurl cterm=undercurl
+    hi SpellLocal      guisp={{color:cyan;variant:dark}}                         gui=undercurl cterm=undercurl
+    hi SpellRare       guisp={{color:magenta;variant:dark}}                      gui=undercurl cterm=undercurl
+
+    " ===== Syntax (legacy groups) =====
+    hi Comment         guifg={{color:green;variant:dark}}                        gui=italic cterm=italic
+    hi SpecialComment  guifg={{color:green;variant:dark}}                        gui=italic cterm=italic
+    hi Todo            guifg={{color:green;luminosity:brighter;variant:dark}}    guibg=NONE gui=bold cterm=bold
+    hi Constant        guifg={{color:white;variant:dark}}
+    hi String          guifg={{color:cyan;variant:dark}}
+    hi Character       guifg={{color:pink;variant:dark}}
+    hi Number          guifg={{color:pink;variant:dark}}
+    hi Float           guifg={{color:pink;variant:dark}}
+    hi Boolean         guifg={{color:magenta;variant:dark}}                      gui=italic cterm=italic
+    hi Identifier      guifg={{color:white;variant:dark}}
+    hi Function        guifg={{color:orange;variant:dark}}
+    hi Statement       guifg={{color:yellow;variant:dark}}
+    hi Conditional     guifg={{color:yellow;variant:dark}}
+    hi Repeat          guifg={{color:yellow;variant:dark}}
+    hi Label           guifg={{color:yellow;variant:dark}}
+    hi Operator        guifg={{color:red;variant:dark}}
+    hi Keyword         guifg={{color:yellow;variant:dark}}
+    hi Exception       guifg={{color:yellow;variant:dark}}
+    hi PreProc         guifg={{color:yellow;variant:dark}}
+    hi Include         guifg={{color:yellow;variant:dark}}
+    hi Define          guifg={{color:yellow;variant:dark}}
+    hi Macro           guifg={{color:yellow;variant:dark}}
+    hi PreCondit       guifg={{color:yellow;variant:dark}}
+    hi Type            guifg={{color:blue;variant:dark}}
+    hi StorageClass    guifg={{color:yellow;variant:dark}}
+    hi Structure       guifg={{color:blue;variant:dark}}
+    hi Typedef         guifg={{color:blue;variant:dark}}
+    hi Special         guifg={{color:pink;variant:dark}}
+    hi SpecialChar     guifg={{color:pink;variant:dark}}
+    hi Tag             guifg={{color:blue;variant:dark}}
+    hi Delimiter       guifg={{color:white;variant:dark}}
+    hi Debug           guifg={{color:red;variant:dark}}
+    hi Underlined      guifg={{color:blue;variant:dark}}                         gui=underline cterm=underline
+    hi Error           guifg={{color:red;variant:dark}}
+    hi Ignore          guifg={{color:white;variant:dark;alpha:40;over:black}}
+
+    " ===== Tokens that don't fit a legacy base group =====
+    hi LumaRegex       guifg={{color:magenta;variant:dark}}
+    hi LumaConstructor guifg={{color:blue;variant:dark}}
+    hi LumaAttribute   guifg={{color:yellow;variant:dark}}                       gui=italic cterm=italic
+    hi LumaHeading     guifg={{color:green;variant:dark}}                        gui=bold cterm=bold
+    hi LumaStrong      guifg={{color:blue;variant:dark}}                         gui=bold cterm=bold
+    hi LumaEmphasis    guifg={{color:blue;variant:dark}}                         gui=italic cterm=italic
+    hi LumaLink        guifg={{color:orange;variant:dark}}                       gui=underline cterm=underline
+    hi LumaRaw         guifg={{color:orange;variant:dark}}
+    hi LumaQuote       guifg={{color:orange;variant:dark}}                       gui=italic cterm=italic
+
+    " ===== Diagnostic foregrounds (LSP) =====
+    hi DiagnosticError guifg={{color:red;variant:dark}}
+    hi DiagnosticWarn  guifg={{color:yellow;variant:dark}}
+    hi DiagnosticInfo  guifg={{color:blue;variant:dark}}
+    hi DiagnosticHint  guifg={{color:green;variant:dark}}
+    hi DiagnosticOk    guifg={{color:green;variant:dark}}
+
+    " ===== LSP references =====
+    hi LspReferenceText                                                            guibg={{color:cyan;variant:dark;alpha:20;over:black}}
+    hi LspReferenceRead                                                            guibg={{color:cyan;variant:dark;alpha:20;over:black}}
+    hi LspReferenceWrite                                                           guibg={{color:cyan;variant:dark;alpha:20;over:black}}
+    hi LspInlayHint    guifg={{color:green;variant:dark}}                          guibg={{color:black;variant:dark}}
+    hi LspSignatureActiveParameter guifg={{color:orange;variant:dark}}             gui=bold cterm=bold
+
+    " ===== Git signs =====
+    hi GitSignsAdd     guifg={{color:green;variant:dark}}
+    hi GitSignsChange  guifg={{color:yellow;variant:dark}}
+    hi GitSignsDelete  guifg={{color:red;variant:dark}}
+    hi DiffAdded       guifg={{color:green;variant:dark}}
+    hi DiffRemoved     guifg={{color:red;variant:dark}}
+    hi DiffChanged     guifg={{color:yellow;variant:dark}}
+
+  else
+    " ===== Editor UI =====
+    hi Normal          guifg={{color:black;variant:light}}                       guibg={{color:white;variant:light}}
+    hi NormalNC        guifg={{color:black;variant:light}}                       guibg={{color:white;variant:light}}
+    hi NormalFloat     guifg={{color:black;variant:light}}                       guibg={{color:white;luminosity:brighter;variant:light}}
+    hi FloatBorder     guifg={{color:black;luminosity:brighter;variant:light}}   guibg={{color:white;luminosity:brighter;variant:light}}
+    hi FloatTitle      guifg={{color:black;variant:light}}                       guibg={{color:white;luminosity:brighter;variant:light}} gui=bold cterm=bold
+    hi LineNr          guifg={{color:black;variant:light;alpha:40;over:white}}   guibg={{color:white;variant:light}}
+    hi LineNrAbove     guifg={{color:black;variant:light;alpha:40;over:white}}   guibg={{color:white;variant:light}}
+    hi LineNrBelow     guifg={{color:black;variant:light;alpha:40;over:white}}   guibg={{color:white;variant:light}}
+    hi CursorLineNr    guifg={{color:black;variant:light}}                       guibg={{color:white;luminosity:darker;variant:light}} gui=bold cterm=bold
+    hi CursorLine                                                                 guibg={{color:white;luminosity:darker;variant:light}}
+    hi CursorColumn                                                               guibg={{color:white;luminosity:darker;variant:light}}
+    hi ColorColumn                                                                guibg={{color:white;luminosity:darker;variant:light}}
+    hi SignColumn                                                                 guibg={{color:white;variant:light}}
+    hi Folded          guifg={{color:black;luminosity:brighter;variant:light}}   guibg={{color:white;luminosity:darker;variant:light}}
+    hi FoldColumn      guifg={{color:black;luminosity:brighter;variant:light}}   guibg={{color:white;variant:light}}
+    hi VertSplit       guifg={{color:white;luminosity:darker;variant:light}}
+    hi WinSeparator    guifg={{color:white;luminosity:darker;variant:light}}
+    hi StatusLine      guifg={{color:black;variant:light}}                       guibg={{color:white;luminosity:darker;variant:light}}
+    hi StatusLineNC    guifg={{color:black;luminosity:brighter;variant:light}}   guibg={{color:white;luminosity:darker;variant:light}}
+    hi TabLine         guifg={{color:black;luminosity:brighter;variant:light}}   guibg={{color:white;luminosity:darker;variant:light}}
+    hi TabLineSel      guifg={{color:black;variant:light}}                       guibg={{color:white;variant:light}} gui=bold cterm=bold
+    hi TabLineFill                                                                guibg={{color:white;luminosity:darker;variant:light}}
+    hi Pmenu           guifg={{color:black;variant:light}}                       guibg={{color:white;luminosity:brighter;variant:light}}
+    hi PmenuSel        guifg={{color:white;variant:light}}                       guibg={{color:cyan;variant:light}} gui=bold cterm=bold
+    hi PmenuSbar                                                                  guibg={{color:white;luminosity:brighter;variant:light}}
+    hi PmenuThumb                                                                 guibg={{color:black;variant:light;alpha:30;over:white}}
+    hi Visual                                                                     guibg={{color:cyan;variant:light;alpha:30;over:white}}
+    hi VisualNOS                                                                  guibg={{color:cyan;variant:light;alpha:30;over:white}}
+    hi Search          guifg={{color:black;variant:light}}                       guibg={{color:orange;variant:light;alpha:40;over:white}}
+    hi IncSearch       guifg={{color:white;variant:light}}                       guibg={{color:green;variant:light}}
+    hi CurSearch       guifg={{color:white;variant:light}}                       guibg={{color:orange;variant:light}}
+    hi MatchParen      guifg={{color:cyan;luminosity:darker;variant:light}}      guibg=NONE gui=bold,underline cterm=bold,underline
+    hi NonText         guifg={{color:black;variant:light;alpha:30;over:white}}
+    hi SpecialKey      guifg={{color:black;variant:light;alpha:30;over:white}}
+    hi EndOfBuffer     guifg={{color:black;variant:light;alpha:20;over:white}}
+    hi Whitespace      guifg={{color:black;variant:light;alpha:20;over:white}}
+    hi Directory       guifg={{color:blue;variant:light}}
+    hi Title           guifg={{color:green;variant:light}}                       gui=bold cterm=bold
+    hi Question        guifg={{color:cyan;variant:light}}
+    hi ErrorMsg        guifg={{color:red;variant:light}}
+    hi WarningMsg      guifg={{color:yellow;variant:light}}
+    hi ModeMsg         guifg={{color:black;variant:light}}
+    hi MoreMsg         guifg={{color:cyan;variant:light}}
+    hi WildMenu        guifg={{color:white;variant:light}}                       guibg={{color:cyan;variant:light}}
+    hi QuickFixLine                                                               guibg={{color:cyan;variant:light;alpha:30;over:white}}
+    hi Conceal         guifg={{color:black;variant:light;alpha:40;over:white}}
+    hi Cursor          guifg={{color:white;variant:light}}                       guibg={{color:black;luminosity:brighter;variant:light}}
+    hi lCursor         guifg={{color:white;variant:light}}                       guibg={{color:black;luminosity:brighter;variant:light}}
+    hi TermCursor      guifg={{color:white;variant:light}}                       guibg={{color:black;luminosity:brighter;variant:light}}
+
+    " ===== Diff =====
+    hi DiffAdd                                                                    guibg={{color:green;variant:light;alpha:20;over:white}}
+    hi DiffChange                                                                 guibg={{color:yellow;variant:light;alpha:20;over:white}}
+    hi DiffDelete     guifg={{color:red;variant:light}}                          guibg={{color:red;variant:light;alpha:20;over:white}}
+    hi DiffText                                                                   guibg={{color:green;variant:light;alpha:40;over:white}}
+
+    " ===== Spell =====
+    hi SpellBad       guisp={{color:red;variant:light}}                          gui=undercurl cterm=undercurl
+    hi SpellCap       guisp={{color:yellow;variant:light}}                       gui=undercurl cterm=undercurl
+    hi SpellLocal     guisp={{color:cyan;variant:light}}                         gui=undercurl cterm=undercurl
+    hi SpellRare      guisp={{color:magenta;variant:light}}                      gui=undercurl cterm=undercurl
+
+    " ===== Syntax (legacy groups) =====
+    hi Comment        guifg={{color:green;variant:light}}                        gui=italic cterm=italic
+    hi SpecialComment guifg={{color:green;variant:light}}                        gui=italic cterm=italic
+    hi Todo           guifg={{color:green;luminosity:darker;variant:light}}      guibg=NONE gui=bold cterm=bold
+    hi Constant       guifg={{color:black;variant:light}}
+    hi String         guifg={{color:cyan;variant:light}}
+    hi Character      guifg={{color:pink;variant:light}}
+    hi Number         guifg={{color:pink;variant:light}}
+    hi Float          guifg={{color:pink;variant:light}}
+    hi Boolean        guifg={{color:magenta;variant:light}}                      gui=italic cterm=italic
+    hi Identifier     guifg={{color:black;variant:light}}
+    hi Function       guifg={{color:orange;variant:light}}
+    hi Statement      guifg={{color:yellow;variant:light}}
+    hi Conditional    guifg={{color:yellow;variant:light}}
+    hi Repeat         guifg={{color:yellow;variant:light}}
+    hi Label          guifg={{color:yellow;variant:light}}
+    hi Operator       guifg={{color:red;variant:light}}
+    hi Keyword        guifg={{color:yellow;variant:light}}
+    hi Exception      guifg={{color:yellow;variant:light}}
+    hi PreProc        guifg={{color:yellow;variant:light}}
+    hi Include        guifg={{color:yellow;variant:light}}
+    hi Define         guifg={{color:yellow;variant:light}}
+    hi Macro          guifg={{color:yellow;variant:light}}
+    hi PreCondit      guifg={{color:yellow;variant:light}}
+    hi Type           guifg={{color:blue;variant:light}}
+    hi StorageClass   guifg={{color:yellow;variant:light}}
+    hi Structure      guifg={{color:blue;variant:light}}
+    hi Typedef        guifg={{color:blue;variant:light}}
+    hi Special        guifg={{color:pink;variant:light}}
+    hi SpecialChar    guifg={{color:pink;variant:light}}
+    hi Tag            guifg={{color:blue;variant:light}}
+    hi Delimiter      guifg={{color:black;variant:light}}
+    hi Debug          guifg={{color:red;variant:light}}
+    hi Underlined     guifg={{color:blue;variant:light}}                         gui=underline cterm=underline
+    hi Error          guifg={{color:red;variant:light}}
+    hi Ignore         guifg={{color:black;variant:light;alpha:40;over:white}}
+
+    " ===== Tokens that don't fit a legacy base group =====
+    hi LumaRegex       guifg={{color:magenta;variant:light}}
+    hi LumaConstructor guifg={{color:blue;variant:light}}
+    hi LumaAttribute   guifg={{color:yellow;variant:light}}                      gui=italic cterm=italic
+    hi LumaHeading     guifg={{color:green;variant:light}}                       gui=bold cterm=bold
+    hi LumaStrong      guifg={{color:magenta;variant:light}}                     gui=bold cterm=bold
+    hi LumaEmphasis    guifg={{color:magenta;variant:light}}                     gui=italic cterm=italic
+    hi LumaLink        guifg={{color:orange;variant:light}}                      gui=underline cterm=underline
+    hi LumaRaw         guifg={{color:orange;variant:light}}
+    hi LumaQuote       guifg={{color:orange;variant:light}}                      gui=italic cterm=italic
+
+    " ===== Diagnostic foregrounds (LSP) =====
+    hi DiagnosticError guifg={{color:red;variant:light}}
+    hi DiagnosticWarn  guifg={{color:yellow;variant:light}}
+    hi DiagnosticInfo  guifg={{color:blue;variant:light}}
+    hi DiagnosticHint  guifg={{color:green;variant:light}}
+    hi DiagnosticOk    guifg={{color:green;variant:light}}
+
+    " ===== LSP references =====
+    hi LspReferenceText                                                            guibg={{color:cyan;variant:light;alpha:20;over:white}}
+    hi LspReferenceRead                                                            guibg={{color:cyan;variant:light;alpha:20;over:white}}
+    hi LspReferenceWrite                                                           guibg={{color:cyan;variant:light;alpha:20;over:white}}
+    hi LspInlayHint    guifg={{color:green;variant:light}}                         guibg={{color:white;variant:light}}
+    hi LspSignatureActiveParameter guifg={{color:orange;variant:light}}            gui=bold cterm=bold
+
+    " ===== Git signs =====
+    hi GitSignsAdd     guifg={{color:green;variant:light}}
+    hi GitSignsChange  guifg={{color:yellow;variant:light}}
+    hi GitSignsDelete  guifg={{color:red;variant:light}}
+    hi DiffAdded       guifg={{color:green;variant:light}}
+    hi DiffRemoved     guifg={{color:red;variant:light}}
+    hi DiffChanged     guifg={{color:yellow;variant:light}}
+  endif
+
+  " Treesitter, LSP semantic tokens and Diagnostics: neovim only.
+  " Vim doesn't allow '@' in group names, so we skip these on classic vim.
+  if !has("nvim") | finish | endif
+
+  " ===== Treesitter (variant-agnostic via links) =====
+  hi! link @comment                  Comment
+  hi! link @comment.documentation    Comment
+  hi! link @comment.error            Error
+  hi! link @comment.warning          WarningMsg
+  hi! link @comment.todo             Todo
+  hi! link @comment.note             Todo
+
+  hi! link @punctuation              Delimiter
+  hi! link @punctuation.bracket      Delimiter
+  hi! link @punctuation.delimiter    Delimiter
+  hi! link @punctuation.special      Delimiter
+
+  hi! link @constant                 Constant
+  hi! link @constant.builtin         Boolean
+  hi! link @constant.macro           Macro
+
+  hi! link @string                   String
+  hi! link @string.documentation     Comment
+  hi! link @string.escape            SpecialChar
+  hi! link @string.special           SpecialChar
+  hi! link @string.special.symbol    SpecialChar
+  hi! link @string.special.url       LumaLink
+  hi! link @string.regex             LumaRegex
+  hi! link @string.regexp            LumaRegex
+
+  hi! link @character                Character
+  hi! link @character.special        SpecialChar
+
+  hi! link @number                   Number
+  hi! link @number.float             Float
+  hi! link @boolean                  Boolean
+  hi! link @float                    Float
+
+  hi! link @function                 Function
+  hi! link @function.builtin         Function
+  hi! link @function.call            Function
+  hi! link @function.macro           Macro
+  hi! link @function.method          Function
+  hi! link @function.method.call     Function
+  hi! link @method                   Function
+  hi! link @method.call              Function
+  hi! link @constructor              LumaConstructor
+
+  hi! link @keyword                  Keyword
+  hi! link @keyword.coroutine        Keyword
+  hi! link @keyword.function         Keyword
+  hi! link @keyword.operator         Keyword
+  hi! link @keyword.import           Include
+  hi! link @keyword.type             Keyword
+  hi! link @keyword.modifier         StorageClass
+  hi! link @keyword.repeat           Repeat
+  hi! link @keyword.return           Keyword
+  hi! link @keyword.debug            Debug
+  hi! link @keyword.exception        Exception
+  hi! link @keyword.conditional      Conditional
+  hi! link @keyword.directive        PreProc
+  hi! link @keyword.directive.define Define
+
+  hi! link @operator                 Operator
+
+  hi! link @variable                 Identifier
+  hi! link @variable.builtin         Keyword
+  hi! link @variable.parameter       Identifier
+  hi! link @variable.member          Identifier
+  hi! link @parameter                Identifier
+  hi! link @field                    Identifier
+  hi! link @property                 Identifier
+
+  hi! link @type                     Type
+  hi! link @type.builtin             Type
+  hi! link @type.definition          Typedef
+  hi! link @type.qualifier           StorageClass
+
+  hi! link @attribute                LumaAttribute
+  hi! link @namespace                Type
+  hi! link @module                   Type
+  hi! link @label                    Label
+
+  hi! link @tag                      Tag
+  hi! link @tag.attribute            LumaAttribute
+  hi! link @tag.delimiter            Delimiter
+  hi! link @tag.builtin              Tag
+
+  " --- Markup (markdown, rst, etc.) ---
+  hi! link @markup                   Normal
+  hi! link @markup.heading           LumaHeading
+  hi! link @markup.heading.1         LumaHeading
+  hi! link @markup.heading.2         LumaHeading
+  hi! link @markup.heading.3         LumaHeading
+  hi! link @markup.heading.4         LumaHeading
+  hi! link @markup.heading.5         LumaHeading
+  hi! link @markup.heading.6         LumaHeading
+  hi! link @markup.strong            LumaStrong
+  hi! link @markup.italic            LumaEmphasis
+  hi! link @markup.emphasis          LumaEmphasis
+  hi! link @markup.underline         Underlined
+  hi! link @markup.strikethrough     Comment
+  hi! link @markup.link              LumaLink
+  hi! link @markup.link.label        LumaLink
+  hi! link @markup.link.url          LumaLink
+  hi! link @markup.raw               LumaRaw
+  hi! link @markup.raw.block         LumaRaw
+  hi! link @markup.list              Delimiter
+  hi! link @markup.list.checked      DiagnosticHint
+  hi! link @markup.list.unchecked    Comment
+  hi! link @markup.quote             LumaQuote
+  hi! link @markup.math              LumaRaw
+  hi! link @markup.environment       Keyword
+
+  " --- Diff (treesitter) ---
+  hi! link @diff.plus                DiffAdded
+  hi! link @diff.minus               DiffRemoved
+  hi! link @diff.delta               DiffChanged
+
+  " --- Legacy treesitter names (pre-0.10 compat) ---
+  hi! link @text                     Normal
+  hi! link @text.title               LumaHeading
+  hi! link @text.literal             LumaRaw
+  hi! link @text.strong              LumaStrong
+  hi! link @text.emphasis            LumaEmphasis
+  hi! link @text.underline           Underlined
+  hi! link @text.uri                 LumaLink
+  hi! link @text.todo                Todo
+  hi! link @text.note                Todo
+  hi! link @text.warning             WarningMsg
+  hi! link @text.danger              ErrorMsg
+  hi! link @text.diff.add            DiffAdded
+  hi! link @text.diff.delete         DiffRemoved
+
+  " ===== LSP semantic tokens =====
+  hi! link @lsp.type.class           Type
+  hi! link @lsp.type.decorator       LumaAttribute
+  hi! link @lsp.type.enum            Type
+  hi! link @lsp.type.enumMember      Constant
+  hi! link @lsp.type.function        Function
+  hi! link @lsp.type.interface       Type
+  hi! link @lsp.type.macro           Macro
+  hi! link @lsp.type.method          Function
+  hi! link @lsp.type.namespace       Type
+  hi! link @lsp.type.parameter       Identifier
+  hi! link @lsp.type.property        Identifier
+  hi! link @lsp.type.struct          Type
+  hi! link @lsp.type.type            Type
+  hi! link @lsp.type.typeParameter   Type
+  hi! link @lsp.type.variable        Identifier
+  hi! link @lsp.mod.deprecated       Comment
+  hi! link @lsp.mod.readonly         Constant
+
+  " ===== Diagnostic variants =====
+  hi! link DiagnosticVirtualTextError DiagnosticError
+  hi! link DiagnosticVirtualTextWarn  DiagnosticWarn
+  hi! link DiagnosticVirtualTextInfo  DiagnosticInfo
+  hi! link DiagnosticVirtualTextHint  DiagnosticHint
+  hi! link DiagnosticVirtualTextOk    DiagnosticOk
+  hi! link DiagnosticFloatingError    DiagnosticError
+  hi! link DiagnosticFloatingWarn     DiagnosticWarn
+  hi! link DiagnosticFloatingInfo     DiagnosticInfo
+  hi! link DiagnosticFloatingHint     DiagnosticHint
+  hi! link DiagnosticFloatingOk       DiagnosticOk
+  hi! link DiagnosticSignError        DiagnosticError
+  hi! link DiagnosticSignWarn         DiagnosticWarn
+  hi! link DiagnosticSignInfo         DiagnosticInfo
+  hi! link DiagnosticSignHint         DiagnosticHint
+  hi! link DiagnosticSignOk           DiagnosticOk
+  hi! link DiagnosticUnderlineError   SpellBad
+  hi! link DiagnosticUnderlineWarn    SpellCap
+  hi! link DiagnosticUnderlineInfo    SpellLocal
+  hi! link DiagnosticUnderlineHint    SpellRare

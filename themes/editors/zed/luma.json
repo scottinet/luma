@@ -59,6 +59,9 @@
             "color": "#967ce6",
             "font_style": "italic"
           },
+          "character": {
+            "color": "#db5ca4"
+          },
           "comment": {
             "color": "#5aa55e",
             "font_style": "italic"
@@ -110,10 +113,10 @@
             "color": "#3ba2a7"
           },
           "string.escape": {
-            "color": "#3ba2a7"
+            "color": "#db5ca4"
           },
           "string.regex": {
-            "color": "#3ba2a7"
+            "color": "#967ce6"
           },
           "string.special": {
             "color": "#5aa55e"
@@ -195,6 +198,9 @@
             "color": "#8354de",
             "font_style": "italic"
           },
+          "character": {
+            "color": "#c63187"
+          },
           "comment": {
             "color": "#478944",
             "font_style": "italic"
@@ -246,10 +252,10 @@
             "color": "#248595"
           },
           "string.escape": {
-            "color": "#478944"
+            "color": "#c63187"
           },
           "string.regex": {
-            "color": "#248595"
+            "color": "#8354de"
           },
           "string.special": {
             "color": "#248595"

@@ -203,10 +203,10 @@
       }
     },
     {
-      "name": " Characters",
+      "name": "Characters",
       "scope": ["constant.character", "constant"],
       "settings": {
-        "foreground": "#3ba2a7"
+        "foreground": "#db5ca4"
       }
     },
     {
@@ -227,7 +227,7 @@
       "name": "Strings: Escape Sequences",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#dd6660"
+        "foreground": "#db5ca4"
       }
     },
     {

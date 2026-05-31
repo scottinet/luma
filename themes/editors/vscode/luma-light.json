@@ -206,9 +206,9 @@
     },
     {
       "name": "Characters",
-      "scope": ["constant.numeric", "constant.character", "constant"],
+      "scope": ["constant.character", "constant"],
       "settings": {
-        "foreground": "#478944"
+        "foreground": "#c63187"
       }
     },
     {
