@@ -64,10 +64,10 @@ content: |
     hi TermCursor      guifg={{color:black;variant:dark}}                        guibg={{color:white;luminosity:darker;variant:dark}}
 
     " ===== Diff =====
-    hi DiffAdd                                                                    guibg={{color:green;variant:dark;alpha:20;over:black}}
-    hi DiffChange                                                                 guibg={{color:yellow;variant:dark;alpha:20;over:black}}
+    hi DiffAdd         guifg=NONE                                                 guibg={{color:green;variant:dark;alpha:20;over:black}}
+    hi DiffChange      guifg=NONE                                                 guibg={{color:yellow;variant:dark;alpha:20;over:black}}
     hi DiffDelete      guifg={{color:red;variant:dark}}                          guibg={{color:red;variant:dark;alpha:20;over:black}}
-    hi DiffText                                                                   guibg={{color:green;variant:dark;alpha:40;over:black}}
+    hi DiffText        guifg=NONE                                                 guibg={{color:green;variant:dark;alpha:40;over:black}}
 
     " ===== Spell =====
     hi SpellBad        guisp={{color:red;variant:dark}}                          gui=undercurl cterm=undercurl
@@ -198,10 +198,10 @@ content: |
     hi TermCursor      guifg={{color:white;variant:light}}                       guibg={{color:black;luminosity:brighter;variant:light}}
 
     " ===== Diff =====
-    hi DiffAdd                                                                    guibg={{color:green;variant:light;alpha:20;over:white}}
-    hi DiffChange                                                                 guibg={{color:yellow;variant:light;alpha:20;over:white}}
+    hi DiffAdd         guifg=NONE                                                 guibg={{color:green;variant:light;alpha:20;over:white}}
+    hi DiffChange      guifg=NONE                                                 guibg={{color:yellow;variant:light;alpha:20;over:white}}
     hi DiffDelete     guifg={{color:red;variant:light}}                          guibg={{color:red;variant:light;alpha:20;over:white}}
-    hi DiffText                                                                   guibg={{color:green;variant:light;alpha:40;over:white}}
+    hi DiffText        guifg=NONE                                                 guibg={{color:green;variant:light;alpha:40;over:white}}
 
     " ===== Spell =====
     hi SpellBad       guisp={{color:red;variant:light}}                          gui=undercurl cterm=undercurl

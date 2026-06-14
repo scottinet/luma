@@ -61,10 +61,10 @@ if &background ==# "dark"
   hi TermCursor      guifg=#20222a                        guibg=#9e9e9e
 
   " ===== Diff =====
-  hi DiffAdd                                                                    guibg=#2c3c34
-  hi DiffChange                                                                 guibg=#3a382d
+  hi DiffAdd         guifg=NONE                                                 guibg=#2c3c34
+  hi DiffChange      guifg=NONE                                                 guibg=#3a382d
   hi DiffDelete      guifg=#dd6660                          guibg=#463035
-  hi DiffText                                                                   guibg=#37563f
+  hi DiffText        guifg=NONE                                                 guibg=#37563f
 
   " ===== Spell =====
   hi SpellBad        guisp=#dd6660                          gui=undercurl cterm=undercurl
@@ -195,10 +195,10 @@ else
   hi TermCursor      guifg=#f1f1ee                       guibg=#2b2e38
 
   " ===== Diff =====
-  hi DiffAdd                                                                    guibg=#cfdccc
-  hi DiffChange                                                                 guibg=#dcd8c5
+  hi DiffAdd         guifg=NONE                                                 guibg=#cfdccc
+  hi DiffChange      guifg=NONE                                                 guibg=#dcd8c5
   hi DiffDelete     guifg=#ca3c4e                          guibg=#e9cdce
-  hi DiffText                                                                   guibg=#adc7aa
+  hi DiffText        guifg=NONE                                                 guibg=#adc7aa
 
   " ===== Spell =====
   hi SpellBad       guisp=#ca3c4e                          gui=undercurl cterm=undercurl
