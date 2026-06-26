@@ -32,7 +32,7 @@ Open the Command Palette, run `Preferences: Color Theme`, and pick **Luma - Dark
 
 ## Other variants
 
-The same palette also drives themes for Neovim/Vim, Zed, Ghostty, iTerm2, Konsole, Warp, Windows Terminal, XFCE4 Terminal, and Slack. See the [GitHub repository](https://github.com/scottinet/luma) for setup instructions.
+The same palette also drives themes for Neovim/Vim, Zed, Claude Code, Ghostty, iTerm2, Konsole, Warp, Windows Terminal, XFCE4 Terminal, and Slack. See the [GitHub repository](https://github.com/scottinet/luma) for setup instructions.
 
 ## License
 

@@ -1,0 +1,30 @@
+{
+  "name": "Luma Light",
+  "base": "light",
+  "overrides": {
+    "claude": "#248595",
+    "text": "#20222a",
+    "inverseText": "#f9f9f8",
+    "inactive": "#777777",
+    "subtle": "#6a6a6a",
+    "suggestion": "#777777",
+    "success": "#478944",
+    "error": "#ca3c4e",
+    "warning": "#897622",
+    "merged": "#8354de",
+    "permission": "#b75726",
+    "remember": "#8354de",
+    "promptBorder": "#248595",
+    "planMode": "#2f78c8",
+    "autoAccept": "#478944",
+    "bashBorder": "#c63187",
+    "fastMode": "#b75726",
+    "ide": "#2f78c8",
+    "diffAdded": "#c7d3c1",
+    "diffRemoved": "#dfc5c3",
+    "diffAddedDimmed": "#d5dbcf",
+    "diffRemovedDimmed": "#e1d4d0",
+    "diffAddedWord": "#acc4a7",
+    "diffRemovedWord": "#daa9ab"
+  }
+}

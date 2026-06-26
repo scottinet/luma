@@ -1,0 +1,30 @@
+{
+  "name": "Luma Dark",
+  "base": "dark",
+  "overrides": {
+    "claude": "#3ba2a7",
+    "text": "#ababab",
+    "inverseText": "#14161c",
+    "inactive": "#909090",
+    "subtle": "#848484",
+    "suggestion": "#909090",
+    "success": "#5aa55e",
+    "error": "#dd6660",
+    "warning": "#a09239",
+    "merged": "#967ce6",
+    "permission": "#c97c3c",
+    "remember": "#967ce6",
+    "promptBorder": "#3ba2a7",
+    "planMode": "#5f90e2",
+    "autoAccept": "#5aa55e",
+    "bashBorder": "#db5ca4",
+    "fastMode": "#c97c3c",
+    "ide": "#5f90e2",
+    "diffAdded": "#213028",
+    "diffRemoved": "#382428",
+    "diffAddedDimmed": "#1a2322",
+    "diffRemovedDimmed": "#261d22",
+    "diffAddedWord": "#2d4833",
+    "diffRemovedWord": "#5a3234"
+  }
+}

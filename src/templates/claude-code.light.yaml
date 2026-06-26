@@ -1,0 +1,34 @@
+description: Claude Code Light Theme
+target: themes/editors/claude-code/luma-light.json
+variant: light
+content: |
+  {
+    "name": "Luma Light",
+    "base": "light",
+    "overrides": {
+      "claude": "{{color:cyan}}",
+      "text": "{{color:black}}",
+      "inverseText": "{{color:white;luminosity:brighter}}",
+      "inactive": "{{color:gray}}",
+      "subtle": "{{color:gray;luminosity:darker}}",
+      "suggestion": "{{color:gray}}",
+      "success": "{{color:green}}",
+      "error": "{{color:red}}",
+      "warning": "{{color:yellow}}",
+      "merged": "{{color:magenta}}",
+      "permission": "{{color:orange}}",
+      "remember": "{{color:magenta}}",
+      "promptBorder": "{{color:cyan}}",
+      "planMode": "{{color:blue}}",
+      "autoAccept": "{{color:green}}",
+      "bashBorder": "{{color:pink}}",
+      "fastMode": "{{color:orange}}",
+      "ide": "{{color:blue}}",
+      "diffAdded": "{{color:green;alpha:18;over:white-darker}}",
+      "diffRemoved": "{{color:red;alpha:18;over:white-darker}}",
+      "diffAddedDimmed": "{{color:green;alpha:9;over:white-darker}}",
+      "diffRemovedDimmed": "{{color:red;alpha:9;over:white-darker}}",
+      "diffAddedWord": "{{color:green;alpha:35;over:white-darker}}",
+      "diffRemovedWord": "{{color:red;alpha:35;over:white-darker}}"
+    }
+  }
