@@ -134,6 +134,9 @@ if &background ==# "dark"
   hi LspInlayHint    guifg=#5aa55e                          guibg=#20222a
   hi LspSignatureActiveParameter guifg=#c97c3c             gui=bold cterm=bold
 
+  " ===== Word under cursor (auto-highlight, used by the editor config) =====
+  hi LumaCurrentWord                                                             guibg=#3a3653
+
   " ===== Git signs =====
   hi GitSignsAdd     guifg=#5aa55e
   hi GitSignsChange  guifg=#a09239
@@ -267,6 +270,9 @@ else
   hi LspReferenceWrite                                                           guibg=#c8dbdc
   hi LspInlayHint    guifg=#478944                         guibg=#f1f1ee
   hi LspSignatureActiveParameter guifg=#b75726            gui=bold cterm=bold
+
+  " ===== Word under cursor (auto-highlight, used by the editor config) =====
+  hi LumaCurrentWord                                                             guibg=#dbd2eb
 
   " ===== Git signs =====
   hi GitSignsAdd     guifg=#478944

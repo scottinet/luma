@@ -79,7 +79,7 @@ Copy [`luma-dark.yaml`](./themes/terminals/warp/luma-dark.yaml) and [`luma-light
 
 ### Windows Terminal
 
-Open `Settings → Open JSON file` and merge the scheme objects from [`luma-dark.json`](./themes/terminals/windows-terminal/luma-dark.json) and [`luma-light.json`](./themes/terminals/windows-terminal/luma-light.json) into the top-level `schemes` array. Then set `"colorScheme": "Luma - Dark"` (or `Luma - Light`) on a profile.
+Open `Settings → Open JSON file` and merge the scheme objects from [`luma-dark.json`](./themes/terminals/windows-terminal/luma-dark.json) and [`luma-light.json`](./themes/terminals/windows-terminal/luma-light.json) into the top-level `schemes` array. Then set `"colorScheme": "Luma Dark"` (or `"Luma Light"`) on a profile.
 
 ### XFCE4 Terminal
 

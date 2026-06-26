@@ -137,6 +137,9 @@ content: |
     hi LspInlayHint    guifg={{color:green;variant:dark}}                          guibg={{color:black;variant:dark}}
     hi LspSignatureActiveParameter guifg={{color:orange;variant:dark}}             gui=bold cterm=bold
 
+    " ===== Word under cursor (auto-highlight, used by the editor config) =====
+    hi LumaCurrentWord                                                             guibg={{color:magenta;variant:dark;alpha:22;over:black}}
+
     " ===== Git signs =====
     hi GitSignsAdd     guifg={{color:green;variant:dark}}
     hi GitSignsChange  guifg={{color:yellow;variant:dark}}
@@ -270,6 +273,9 @@ content: |
     hi LspReferenceWrite                                                           guibg={{color:cyan;variant:light;alpha:20;over:white}}
     hi LspInlayHint    guifg={{color:green;variant:light}}                         guibg={{color:white;variant:light}}
     hi LspSignatureActiveParameter guifg={{color:orange;variant:light}}            gui=bold cterm=bold
+
+    " ===== Word under cursor (auto-highlight, used by the editor config) =====
+    hi LumaCurrentWord                                                             guibg={{color:magenta;variant:light;alpha:20;over:white}}
 
     " ===== Git signs =====
     hi GitSignsAdd     guifg={{color:green;variant:light}}
