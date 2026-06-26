@@ -136,7 +136,7 @@ content: |
         "scope": "keyword.operator",
         "settings": {
           "fontStyle": "",
-          "foreground": "{{color:red}}"
+          "foreground": "{{color:black}}"
         }
       },
       {
@@ -163,8 +163,7 @@ content: |
           "storage.type",
           "keyword.operator.expression",
           "support.constant",
-          "variable.language",
-          "support.type"
+          "variable.language"
         ],
         "settings": {
           "fontStyle": "",
@@ -199,7 +198,8 @@ content: |
         "scope": [
           "entity.name.type",
           "entity.other.inherited-class",
-          "support.class"
+          "support.class",
+          "support.type"
         ],
         "settings": {
           "fontStyle": "",
