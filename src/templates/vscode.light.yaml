@@ -4,6 +4,7 @@ variant: light
 content: |
   {
     "name": "Luma",
+    "semanticHighlighting": true,
     "colors": {
       "activityBar.background": "{{color:white;luminosity:darker}}",
       "activityBar.foreground": "{{color:black}}",
@@ -179,10 +180,10 @@ content: |
       },
       {
         "name": "Language Constants",
-        "scope": ["constant.language", "support.type.builtin.ts"],
+        "scope": ["constant.language"],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "{{color:magenta}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {
@@ -261,7 +262,7 @@ content: |
         "name": "Strings: Symbols",
         "scope": "constant.other.symbol",
         "settings": {
-          "foreground": "{{color:cyan}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {

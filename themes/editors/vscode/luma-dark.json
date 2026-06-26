@@ -1,5 +1,6 @@
 {
   "name": "Luma",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#14161c",
     "activityBar.foreground": "#ababab",
@@ -169,7 +170,7 @@
       "scope": ["constant.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#967ce6"
+        "foreground": "#db5ca4"
       }
     },
     {
@@ -255,7 +256,7 @@
       "name": "Strings: Symbols",
       "scope": "constant.other.symbol",
       "settings": {
-        "foreground": "#5aa55e"
+        "foreground": "#db5ca4"
       }
     },
     {

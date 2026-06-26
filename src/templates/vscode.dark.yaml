@@ -4,6 +4,7 @@ variant: dark
 content: |
   {
     "name": "Luma",
+    "semanticHighlighting": true,
     "colors": {
       "activityBar.background": "{{color:black;luminosity:darker}}",
       "activityBar.foreground": "{{color:white}}",
@@ -173,7 +174,7 @@ content: |
         "scope": ["constant.language"],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "{{color:magenta}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {
@@ -259,7 +260,7 @@ content: |
         "name": "Strings: Symbols",
         "scope": "constant.other.symbol",
         "settings": {
-          "foreground": "{{color:green}}"
+          "foreground": "{{color:pink}}"
         }
       },
       {
