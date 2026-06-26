@@ -1,6 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+README.md
 vsc-extension-quickstart.md
 node_modules/**
 themes/**
