@@ -4,7 +4,7 @@ A soothing, low-intensity color theme for people who stare at code all day. Ever
 
 | Luma Dark | Luma Light |
 | --- | --- |
-| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png" alt="Luma Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png" alt="Luma Light" width="430"> |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png?v=2" alt="Luma Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png?v=2" alt="Luma Light" width="430"> |
 
 ## About
 
