@@ -41,6 +41,7 @@ content: |
       "editorInlayHint.foreground": "{{color:green}}",
       "editorLineNumber.foreground": "{{color:white;alpha:40}}",
       "editorLineNumber.activeForeground": "{{color:white}}",
+      "git.blame.editorDecorationForeground": "{{color:gray}}",
       "gitDecoration.addedResourceForeground": "{{color:gray}}",
       "gitDecoration.untrackedResourceForeground": "{{color:gray}}",
       "gitDecoration.renamedResourceForeground": "{{color:gray}}",

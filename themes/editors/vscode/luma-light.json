@@ -39,6 +39,7 @@
     "editorInlayHint.foreground": "#478944",
     "editorLineNumber.foreground": "#20222a40",
     "editorLineNumber.activeForeground": "#20222a",
+    "git.blame.editorDecorationForeground": "#777777",
     "gitDecoration.addedResourceForeground": "#777777",
     "gitDecoration.untrackedResourceForeground": "#777777",
     "gitDecoration.renamedResourceForeground": "#777777",
