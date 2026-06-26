@@ -2,10 +2,10 @@
 
 A soothing theme, using the Oklab color space to make all accent colors of the same perceptual intensity.
 
-| Luma Dark                                                                                                     | Luma Light                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| ![Luma Dark Code](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png) | ![Luma Light Code](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png) |
-| ![Luma Dark](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark.png)           | ![Luma Light](https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light.png)          |
+| Luma Dark | Luma Light |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png" alt="Luma Dark Code" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png" alt="Luma Light Code" width="430"> |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark.png" alt="Luma Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light.png" alt="Luma Light" width="430"> |
 
 ## About
 
