@@ -3,7 +3,7 @@
   "base": "dark",
   "overrides": {
     "claude": "#3ba2a7",
-    "text": "#ababab",
+    "text": "#c97c3c",
     "inverseText": "#14161c",
     "inactive": "#909090",
     "subtle": "#848484",

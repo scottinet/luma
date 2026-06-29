@@ -7,7 +7,7 @@ content: |
     "base": "dark",
     "overrides": {
       "claude": "{{color:cyan}}",
-      "text": "{{color:white}}",
+      "text": "{{color:orange}}",
       "inverseText": "{{color:black;luminosity:darker}}",
       "inactive": "{{color:gray}}",
       "subtle": "{{color:gray;luminosity:darker}}",
