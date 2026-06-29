@@ -11,7 +11,7 @@ content: |
       "inverseText": "{{color:white;luminosity:brighter}}",
       "inactive": "{{color:gray}}",
       "subtle": "{{color:gray;luminosity:darker}}",
-      "suggestion": "{{color:gray}}",
+      "suggestion": "{{color:cyan}}",
       "success": "{{color:green}}",
       "error": "{{color:red}}",
       "warning": "{{color:yellow}}",
