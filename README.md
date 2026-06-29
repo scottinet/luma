@@ -94,6 +94,8 @@ Copy [`luma-dark.theme`](./themes/terminals/xfce4-terminal/luma-dark.theme) and 
 
 Copy [`luma-dark.json`](./themes/editors/claude-code/luma-dark.json) and [`luma-light.json`](./themes/editors/claude-code/luma-light.json) to `~/.claude/themes/`, then run `/theme` and pick `Luma Dark` or `Luma Light`.
 
+Luma's colors are 24-bit, so use a truecolor terminal. If they look washed out (snapped to the 256-color palette), make sure `COLORTERM=truecolor` is set in your shell.
+
 ### Slack
 
 Open `Preferences → Themes`, scroll to `Custom theme` and paste the contents of [`LumaDark`](./themes/others/slack/LumaDark) or [`LumaLight`](./themes/others/slack/LumaLight) into the input field.
