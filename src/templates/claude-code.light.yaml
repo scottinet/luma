@@ -24,6 +24,7 @@ content: |
       "bashBorder": "{{color:pink}}",
       "fastMode": "{{color:orange}}",
       "ide": "{{color:blue}}",
+      "userMessageBackground": "{{color:white;luminosity:darker}}",
       "diffAdded": "{{color:green;alpha:18;over:white-darker}}",
       "diffRemoved": "{{color:red;alpha:18;over:white-darker}}",
       "diffAddedDimmed": "{{color:green;alpha:9;over:white-darker}}",

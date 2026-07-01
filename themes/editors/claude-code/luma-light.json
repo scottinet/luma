@@ -20,6 +20,7 @@
     "bashBorder": "#c63187",
     "fastMode": "#b75726",
     "ide": "#2f78c8",
+    "userMessageBackground": "#e3e3dd",
     "diffAdded": "#c7d3c1",
     "diffRemoved": "#dfc5c3",
     "diffAddedDimmed": "#d5dbcf",
