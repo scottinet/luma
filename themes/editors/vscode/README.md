@@ -30,6 +30,10 @@ Luma is a complete theme, not just a syntax palette:
 
 Want even less color? **Luma Quiet** is a more restrained cut of the same palette: it pulls most syntax back toward the foreground and keeps color only where it earns its place, so the editor reads calmer, with fewer accents competing for your eye. Available in both **Dark** and **Light**.
 
+| Luma Quiet Dark | Luma Quiet Light |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-dark-code.png" alt="Luma Quiet Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-light-code.png" alt="Luma Quiet Light" width="430"> |
+
 ## Set your theme
 
 Open the Command Palette, run `Preferences: Color Theme`, and pick **Luma - Dark**, **Luma - Light**, **Luma Quiet - Dark**, or **Luma Quiet - Light**.

@@ -24,6 +24,12 @@ Two appearances are provided: **Dark** and **Light**.
 
 Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=SebastienCottinet.luma-theme), then pick `Luma - Dark` or `Luma - Light` in `Preferences: Color Theme`.
 
+A lower-color **Quiet** variant is also included — `Luma Quiet - Dark` and `Luma Quiet - Light` — which pulls most syntax back toward the foreground, keeping color only where it earns its place.
+
+| Luma Quiet Dark | Luma Quiet Light |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-dark-code.png" alt="Luma Quiet Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-light-code.png" alt="Luma Quiet Light" width="430"> |
+
 ### Vim / Neovim
 
 The colorscheme is at [`colors/luma.vim`](./colors/luma.vim). It supports both `set background=dark` and `set background=light`, and covers legacy syntax groups, Tree-sitter (`@…`), and LSP / Diagnostic groups. 24-bit color is required: `set termguicolors`.
