@@ -1,0 +1,502 @@
+description: VSCode Quiet Dark Theme
+target: themes/editors/vscode/luma-quiet-dark.json
+variant: dark
+content: |
+  {
+    "name": "Luma Quiet",
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+      "property": "{{color:white}}"
+    },
+    "colors": {
+      "activityBar.background": "{{color:black;luminosity:darker}}",
+      "activityBar.foreground": "{{color:white}}",
+      "activityBarBadge.background": "{{color:cyan}}",
+      "badge.background": "{{color:cyan;alpha:60}}",
+      "banner.background": "{{color:black}}",
+      "button.background": "{{color:cyan}}",
+      "commandCenter.background": "{{color:black}}",
+      "diffEditor.insertedTextBackground": "{{color:green;alpha:10}}",
+      "diffEditor.insertedLineBackground": "{{color:green;alpha:40}}",
+      "diffEditor.removedTextBackground": "{{color:red;alpha:30}}",
+      "diffEditor.removedLineBackground": "{{color:red;alpha:40}}",
+      "diffEditorOverview.insertedForeground": "{{color:green;alpha:70}}",
+      "diffEditorOverview.removedForeground": "{{color:red;alpha:70}}",
+      "dropdown.background": "{{color:black;luminosity:brighter}}",
+      "editor.background": "{{color:black}}",
+      "editor.findMatchBackground": "{{color:green;alpha:30}}",
+      "editor.findMatchHighlightBackground": "{{color:orange;alpha:40}}",
+      "editor.foreground": "{{color:white}}",
+      "editor.lineHighlightBackground": "{{color:white;alpha:10}}",
+      "editor.selectionBackground": "{{color:cyan;alpha:30}}",
+      "editor.wordHighlightBackground": "{{color:cyan;alpha:30}}",
+      "editor.wordHighlightStrongBackground": "{{color:cyan;alpha:30}}",
+      "editorBracketHighlight.foreground1": "{{color:white}}",
+      "editorBracketHighlight.foreground2": "{{color:white}}",
+      "editorBracketHighlight.foreground3": "{{color:white}}",
+      "editorBracketHighlight.foreground4": "{{color:white}}",
+      "editorBracketHighlight.foreground5": "{{color:white}}",
+      "editorBracketHighlight.foreground6": "{{color:white}}",
+      "editorGroupHeader.noTabsBackground": "{{color:black}}",
+      "editorGroupHeader.tabsBackground": "{{color:black}}",
+      "editorBracketHighlight.unexpectedBracket.foreground": "{{color:red}}",
+      "editorGutter.background": "{{color:black}}",
+      "editorInlayHint.background": "{{color:black}}",
+      "editorInlayHint.foreground": "{{color:green}}",
+      "editorLineNumber.foreground": "{{color:white;alpha:40}}",
+      "editorLineNumber.activeForeground": "{{color:white}}",
+      "git.blame.editorDecorationForeground": "{{color:gray}}",
+      "gitDecoration.addedResourceForeground": "{{color:green}}",
+      "gitDecoration.untrackedResourceForeground": "{{color:green}}",
+      "gitDecoration.renamedResourceForeground": "{{color:gray}}",
+      "gitDecoration.ignoredResourceForeground": "{{color:gray;alpha:70}}",
+      "gitDecoration.modifiedResourceForeground": "{{color:yellow}}",
+      "gitDecoration.stageModifiedResourceForeground": "{{color:yellow}}",
+      "gitDecoration.deletedResourceForeground": "{{color:red}}",
+      "gitDecoration.stageDeletedResourceForeground": "{{color:red}}",
+      "gitDecoration.conflictingResourceForeground": "{{color:red}}",
+      "gitDecoration.submoduleResourceForeground": "{{color:blue}}",
+      "gitlens.trailingLineForegroundColor": "{{color:white;alpha:40}}",
+      "input.background": "{{color:black;luminosity:brighter}}",
+      "list.activeSelectionBackground": "{{color:cyan;alpha:30}}",
+      "list.activeSelectionForeground": "{{color:white}}",
+      "list.dropBackground": "{{color:black}}",
+      "list.inactiveSelectionBackground": "{{color:cyan;alpha:30}}",
+      "list.inactiveSelectionForeground": "{{color:white}}",
+      "menu.background": "{{color:black}}",
+      "panel.background": "{{color:black}}",
+      "quickInput.background": "{{color:black}}",
+      "quickInput.foreground": "{{color:white}}",
+      "scrollbarSlider.background": "{{color:white;alpha:20}}",
+      "searchEditor.findMatchBackground": "{{color:cyan;alpha:30}}",
+      "selection.background": "{{color:cyan;alpha:30}}",
+      "sideBar.background": "{{color:black;luminosity:darker}}",
+      "sideBarSectionHeader.background": "{{color:black;luminosity:darker}}",
+      "statusBar.background": "{{color:black;luminosity:darker}}",
+      "statusBar.debuggingBackground": "{{color:orange;alpha:80}}",
+      "statusBar.foreground": "{{color:white}}",
+      "tab.activeBackground": "{{color:black}}",
+      "tab.inactiveBackground": "{{color:black;luminosity:darker}}",
+      "tab.border": "{{color:black;luminosity:brighter}}",
+      "tab.selectedBorderTop": "{{color:black;luminosity:brighter}}",
+      "terminal.background": "{{color:black}}",
+      "terminal.ansiBrightBlack": "{{color:black;luminosity:brighter}}",
+      "terminal.ansiBrightBlue": "{{color:blue;luminosity:brighter}}",
+      "terminal.ansiBrightCyan": "{{color:cyan;luminosity:brighter}}",
+      "terminal.ansiBrightGreen": "{{color:green;luminosity:brighter}}",
+      "terminal.ansiBrightMagenta": "{{color:magenta;luminosity:brighter}}",
+      "terminal.ansiBrightRed": "{{color:red;luminosity:brighter}}",
+      "terminal.ansiBrightYellow": "{{color:yellow;luminosity:brighter}}",
+      "terminal.ansiBlack": "{{color:black}}",
+      "terminal.ansiBlue": "{{color:blue}}",
+      "terminal.ansiCyan": "{{color:cyan}}",
+      "terminal.ansiGreen": "{{color:green}}",
+      "terminal.ansiMagenta": "{{color:magenta}}",
+      "terminal.ansiRed": "{{color:red}}",
+      "terminal.ansiYellow": "{{color:yellow}}",
+      "terminal.foreground": "{{color:white}}",
+      "titleBar.activeBackground": "{{color:black;luminosity:darker}}",
+      "titleBar.activeForeground": "{{color:white}}",
+      "titleBar.inactiveBackground": "{{color:black;luminosity:darker}}",
+      "titleBar.inactiveForeground": "{{color:white}}"
+    },
+    "tokenColors": [
+      {
+        "name": "Comments",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{color:green}}"
+        }
+      },
+      {
+        "name": "Comments: Preprocessor",
+        "scope": "comment.block.preprocessor",
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:green}}"
+        }
+      },
+      {
+        "name": "Comments: Documentation",
+        "scope": ["comment.documentation", "comment.block.documentation"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{color:green}}"
+        }
+      },
+      {
+        "name": "Invalid - Illegal",
+        "scope": "invalid.illegal",
+        "settings": {
+          "foreground": "{{color:red}}"
+        }
+      },
+      {
+        "name": "Operators",
+        "scope": "keyword.operator",
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Operators",
+        "scope": [
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.operator.assignment",
+          "punctuation",
+          "storage.type.function.arrow",
+          "meta.brace"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Keywords",
+        "scope": [
+          "keyword",
+          "storage",
+          "keyword.operator.new",
+          "storage.type",
+          "keyword.operator.expression",
+          "support.constant"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Language Constants",
+        "scope": ["constant.language"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Variables",
+        "scope": ["variable", "support.variable"],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Functions",
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:orange}}"
+        }
+      },
+      {
+        "name": "Classes",
+        "scope": [
+          "entity.name.type",
+          "entity.other.inherited-class",
+          "support.class",
+          "support.type"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:blue}}"
+        }
+      },
+      {
+        "name": "Exceptions",
+        "scope": "entity.name.exception",
+        "settings": {
+          "foreground": "{{color:blue}}"
+        }
+      },
+      {
+        "name": "Sections",
+        "scope": "entity.name.section",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Characters",
+        "scope": ["constant.character", "constant"],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Numbers",
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Strings",
+        "scope": "string",
+        "settings": {
+          "foreground": "{{color:cyan}}"
+        }
+      },
+      {
+        "name": "Strings: Escape Sequences",
+        "scope": "constant.character.escape",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Strings: Regular Expressions",
+        "scope": [
+          "string.regexp",
+          "punctuation.definition.group.regexp",
+          "punctuation.definition.group.no-capture.regexp",
+          "punctuation.definition.character-class.regexp",
+          "constant.other.character-class.regexp",
+          "constant.other.character-class.set.regexp",
+          "constant.other.character-class.range.regexp",
+          "constant.character.escape.regexp",
+          "constant.character.escape.backslash.regexp",
+          "keyword.operator.quantifier.regexp",
+          "keyword.operator.or.regexp",
+          "keyword.operator.negation.regexp",
+          "keyword.control.anchor.regexp",
+          "meta.assertion.look-ahead.regexp",
+          "meta.assertion.negative-look-ahead.regexp"
+        ],
+        "settings": {
+          "foreground": "{{color:magenta}}"
+        }
+      },
+      {
+        "name": "Strings: Symbols",
+        "scope": "constant.other.symbol",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "HTML: Doctype Declaration",
+        "scope": [
+          "meta.tag.sgml.doctype",
+          "meta.tag.sgml.doctype string",
+          "meta.tag.sgml.doctype entity.name.tag",
+          "meta.tag.sgml punctuation.definition.tag.html"
+        ],
+        "settings": {
+          "foreground": "{{color:green}}"
+        }
+      },
+      {
+        "name": "HTML: Tags",
+        "scope": [
+          "meta.tag",
+          "punctuation.definition.tag.html",
+          "punctuation.definition.tag.begin.html",
+          "punctuation.definition.tag.end.html"
+        ],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "HTML: Tag Names",
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "{{color:blue}}"
+        }
+      },
+      {
+        "name": "HTML: Attribute Names",
+        "scope": [
+          "meta.tag entity.other.attribute-name",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "HTML: Entities",
+        "scope": ["constant.character.entity", "punctuation.definition.entity"],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "CSS: Selectors",
+        "scope": [
+          "meta.selector",
+          "meta.selector entity",
+          "meta.selector entity punctuation",
+          "entity.name.tag.css"
+        ],
+        "settings": {
+          "foreground": "{{color:orange}}"
+        }
+      },
+      {
+        "name": "CSS: Property Names",
+        "scope": ["meta.property-name", "support.type.property-name"],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "CSS: Property Values",
+        "scope": [
+          "meta.property-value",
+          "meta.property-value constant.other",
+          "support.constant.property-value"
+        ],
+        "settings": {
+          "foreground": "{{color:orange}}"
+        }
+      },
+      {
+        "name": "CSS: Important Keyword",
+        "scope": "keyword.other.important",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Markup: Changed",
+        "scope": "markup.changed",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup: Deletion",
+        "scope": "markup.deleted",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup: Emphasis",
+        "scope": "markup.italic",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Markup: Error",
+        "scope": "markup.error",
+        "settings": {
+          "foreground": "{{color:red}}"
+        }
+      },
+      {
+        "name": "Markup: Insertion",
+        "scope": "markup.inserted",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup: Link",
+        "scope": "meta.link",
+        "settings": {
+          "foreground": "{{color:orange}}"
+        }
+      },
+      {
+        "name": "Markup: Output",
+        "scope": ["markup.output", "markup.raw"],
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup: Prompt",
+        "scope": "markup.prompt",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup: Heading",
+        "scope": "markup.heading",
+        "settings": {
+          "foreground": "{{color:green}}"
+        }
+      },
+      {
+        "name": "Markup: Strong",
+        "scope": "markup.bold",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Markup: Traceback",
+        "scope": "markup.traceback",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup: Underline",
+        "scope": "markup.underline",
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "name": "Markup Quote",
+        "scope": "markup.quote",
+        "settings": {
+          "foreground": "{{color:orange}}"
+        }
+      },
+      {
+        "name": "Markup Lists",
+        "scope": "markup.list",
+        "settings": {
+          "foreground": "{{color:white}}"
+        }
+      },
+      {
+        "name": "Markup Styling",
+        "scope": ["markup.bold", "markup.italic"],
+        "settings": {
+          "foreground": "{{color:blue}}"
+        }
+      },
+      {
+        "name": "Markup Inline",
+        "scope": "markup.inline.raw",
+        "settings": {
+          "fontStyle": "",
+          "foreground": "{{color:orange}}"
+        }
+      },
+      {
+        "name": "Extra: Diff Range",
+        "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+        "settings": {
+          "foreground": "{{color:white;luminosity:darker}}"
+        }
+      },
+      {
+        "name": "Extra: Diff From",
+        "scope": "meta.diff.header.from-file",
+        "settings": {
+          "foreground": "{{color:white;luminosity:darker}}"
+        }
+      },
+      {
+        "name": "Extra: Diff To",
+        "scope": "meta.diff.header.to-file",
+        "settings": {
+          "foreground": "{{color:white;luminosity:darker}}"
+        }
+      }
+    ]
+  }
