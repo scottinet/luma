@@ -6,6 +6,10 @@ A soothing, low-intensity color theme for people who stare at code all day. Ever
 | --- | --- |
 | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png?v=2" alt="Luma Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png?v=2" alt="Luma Light" width="430"> |
 
+| Luma Quiet Dark | Luma Quiet Light |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-dark-code.png" alt="Luma Quiet Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-light-code.png" alt="Luma Quiet Light" width="430"> |
+
 ## Why Luma
 
 **Equal perceptual intensity.** Most themes choose colors in RGB or HSL, where a "pure" green and a "pure" blue can differ wildly in how bright they actually *look* — so some tokens leap out and others recede, whether the syntax means anything by it or not. Luma picks every accent in the [Oklab](https://bottosson.github.io/posts/oklab/) color space and pins them all to the same perceptual lightness, for a calm, even surface where color reads as structure rather than competing highlights.
@@ -29,10 +33,6 @@ Luma is a complete theme, not just a syntax palette:
 ## Quiet variants
 
 Want even less color? **Luma Quiet** is a more restrained cut of the same palette: it pulls most syntax back toward the foreground and keeps color only where it earns its place, so the editor reads calmer, with fewer accents competing for your eye. Available in both **Dark** and **Light**.
-
-| Luma Quiet Dark | Luma Quiet Light |
-| --- | --- |
-| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-dark-code.png" alt="Luma Quiet Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-light-code.png" alt="Luma Quiet Light" width="430"> |
 
 ## Set your theme
 

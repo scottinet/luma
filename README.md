@@ -6,6 +6,10 @@ A soothing, low-intensity color theme for people who stare at code all day. Ever
 | --- | --- |
 | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-dark-code.png?v=2" alt="Luma Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-light-code.png?v=2" alt="Luma Light" width="430"> |
 
+| Luma Quiet Dark | Luma Quiet Light |
+| --- | --- |
+| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-dark-code.png" alt="Luma Quiet Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-light-code.png" alt="Luma Quiet Light" width="430"> |
+
 ## About
 
 **Equal perceptual intensity.** Most themes choose colors in RGB or HSL, where a "pure" green and a "pure" blue can differ wildly in how bright they actually *look* — so some tokens leap out and others recede, whether the syntax means anything by it or not. Luma picks every accent in the [Oklab](https://bottosson.github.io/posts/oklab/) color space and pins them all to the same perceptual lightness, for a calm, even surface where color reads as structure rather than competing highlights.
@@ -25,10 +29,6 @@ Two appearances are provided: **Dark** and **Light**.
 Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=SebastienCottinet.luma-theme), then pick `Luma - Dark` or `Luma - Light` in `Preferences: Color Theme`.
 
 A lower-color **Quiet** variant is also included — `Luma Quiet - Dark` and `Luma Quiet - Light` — which pulls most syntax back toward the foreground, keeping color only where it earns its place.
-
-| Luma Quiet Dark | Luma Quiet Light |
-| --- | --- |
-| <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-dark-code.png" alt="Luma Quiet Dark" width="430"> | <img src="https://raw.githubusercontent.com/scottinet/luma/refs/heads/main/assets/luma-quiet-light-code.png" alt="Luma Quiet Light" width="430"> |
 
 ### Vim / Neovim
 
