@@ -26,9 +26,13 @@ Luma is a complete theme, not just a syntax palette:
 - **Integrated terminal** — the full 16-color ANSI palette
 - **Diffs & search** — added/removed lines and match highlights
 
+## Quiet variants
+
+Want even less color? **Luma Quiet** is a more restrained cut of the same palette: it pulls most syntax back toward the foreground and keeps color only where it earns its place, so the editor reads calmer, with fewer accents competing for your eye. Available in both **Dark** and **Light**.
+
 ## Set your theme
 
-Open the Command Palette, run `Preferences: Color Theme`, and pick **Luma - Dark** or **Luma - Light**.
+Open the Command Palette, run `Preferences: Color Theme`, and pick **Luma - Dark**, **Luma - Light**, **Luma Quiet - Dark**, or **Luma Quiet - Light**.
 
 ## Other variants
 
