@@ -210,7 +210,7 @@ content: |
         ],
         "settings": {
           "fontStyle": "",
-          "foreground": "{{color:blue}}"
+          "foreground": "{{color:black}}"
         }
       },
       {
