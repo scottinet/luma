@@ -51,6 +51,9 @@
         "uiTheme": "vs-dark",
         "path": "./themes/editors/vscode/luma-quiet-dark.json"
       }
+    ],
+    "markdown.previewStyles": [
+      "./themes/editors/vscode/markdown-preview.css"
     ]
   },
   "scripts": {

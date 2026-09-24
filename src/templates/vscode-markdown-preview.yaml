@@ -1,0 +1,220 @@
+description: VSCode Markdown Preview Code Highlighting
+target: themes/editors/vscode/markdown-preview.css
+variant: dark
+content: |
+  /*
+   * Luma colors for code blocks in the VS Code Markdown preview.
+   *
+   * The preview highlights code with highlight.js and its own built-in
+   * stylesheet, not with the color theme's tokenColors. These rules only apply
+   * when a Luma theme is active: the preview's <body> carries the active
+   * theme's id (its label) in data-vscode-theme-id.
+   *
+   * Mapping mirrors the tokenColors of the vscode*.yaml templates.
+   */
+
+  body[data-vscode-theme-id="Luma - Dark"] {
+    --luma-fg: {{color:white}};
+    --luma-comment: {{color:green}};
+    --luma-keyword: {{color:yellow}};
+    --luma-constant: {{color:pink}};
+    --luma-type: {{color:blue}};
+    --luma-function: {{color:orange}};
+    --luma-string: {{color:cyan}};
+    --luma-regexp: {{color:magenta}};
+    --luma-tag: {{color:blue}};
+    --luma-tag-attr: {{color:yellow}};
+    --luma-selector: {{color:orange}};
+    --luma-heading: {{color:green}};
+    --luma-link: {{color:orange}};
+    --luma-inserted: {{color:green}};
+    --luma-inserted-bg: {{color:green;alpha:20}};
+    --luma-deleted: {{color:red}};
+    --luma-deleted-bg: {{color:red;alpha:20}};
+  }
+
+  body[data-vscode-theme-id="Luma - Light"] {
+    --luma-fg: {{color:black;variant:light}};
+    --luma-comment: {{color:green;variant:light}};
+    --luma-keyword: {{color:yellow;variant:light}};
+    --luma-constant: {{color:pink;variant:light}};
+    --luma-type: {{color:blue;variant:light}};
+    --luma-function: {{color:orange;variant:light}};
+    --luma-string: {{color:cyan;variant:light}};
+    --luma-regexp: {{color:magenta;variant:light}};
+    --luma-tag: {{color:blue;variant:light}};
+    --luma-tag-attr: {{color:yellow;variant:light}};
+    --luma-selector: {{color:orange;variant:light}};
+    --luma-heading: {{color:green;variant:light}};
+    --luma-link: {{color:orange;variant:light}};
+    --luma-inserted: {{color:green;variant:light}};
+    --luma-inserted-bg: {{color:green;alpha:20;variant:light}};
+    --luma-deleted: {{color:red;variant:light}};
+    --luma-deleted-bg: {{color:red;alpha:20;variant:light}};
+  }
+
+  body[data-vscode-theme-id="Luma Quiet - Dark"] {
+    --luma-fg: {{color:white}};
+    --luma-comment: {{color:green}};
+    --luma-keyword: {{color:white}};
+    --luma-constant: {{color:white}};
+    --luma-type: {{color:white}};
+    --luma-function: {{color:orange}};
+    --luma-string: {{color:cyan}};
+    --luma-regexp: {{color:magenta}};
+    --luma-tag: {{color:blue}};
+    --luma-tag-attr: {{color:white}};
+    --luma-selector: {{color:orange}};
+    --luma-heading: {{color:green}};
+    --luma-link: {{color:orange}};
+    --luma-inserted: {{color:green}};
+    --luma-inserted-bg: {{color:green;alpha:20}};
+    --luma-deleted: {{color:red}};
+    --luma-deleted-bg: {{color:red;alpha:20}};
+  }
+
+  body[data-vscode-theme-id="Luma Quiet - Light"] {
+    --luma-fg: {{color:black;variant:light}};
+    --luma-comment: {{color:green;variant:light}};
+    --luma-keyword: {{color:black;variant:light}};
+    --luma-constant: {{color:black;variant:light}};
+    --luma-type: {{color:black;variant:light}};
+    --luma-function: {{color:orange;variant:light}};
+    --luma-string: {{color:cyan;variant:light}};
+    --luma-regexp: {{color:magenta;variant:light}};
+    --luma-tag: {{color:blue;variant:light}};
+    --luma-tag-attr: {{color:black;variant:light}};
+    --luma-selector: {{color:orange;variant:light}};
+    --luma-heading: {{color:green;variant:light}};
+    --luma-link: {{color:orange;variant:light}};
+    --luma-inserted: {{color:green;variant:light}};
+    --luma-inserted-bg: {{color:green;alpha:20;variant:light}};
+    --luma-deleted: {{color:red;variant:light}};
+    --luma-deleted-bg: {{color:red;alpha:20;variant:light}};
+  }
+
+  :is(
+      body[data-vscode-theme-id="Luma - Dark"],
+      body[data-vscode-theme-id="Luma - Light"],
+      body[data-vscode-theme-id="Luma Quiet - Dark"],
+      body[data-vscode-theme-id="Luma Quiet - Light"]
+    )
+    :is(
+      .hljs-attr,
+      .hljs-attribute,
+      .hljs-bullet,
+      .hljs-built_in,
+      .hljs-builtin-name,
+      .hljs-class,
+      .hljs-formula,
+      .hljs-function,
+      .hljs-number,
+      .hljs-operator,
+      .hljs-params,
+      .hljs-property,
+      .hljs-punctuation,
+      .hljs-subst,
+      .hljs-tag,
+      .hljs-template-variable,
+      .hljs-variable
+    ) {
+    color: var(--luma-fg);
+    font-style: normal;
+  }
+
+  :is(
+      body[data-vscode-theme-id="Luma - Dark"],
+      body[data-vscode-theme-id="Luma - Light"],
+      body[data-vscode-theme-id="Luma Quiet - Dark"],
+      body[data-vscode-theme-id="Luma Quiet - Light"]
+    ) {
+    & :is(.hljs-comment, .hljs-quote) {
+      color: var(--luma-comment);
+      font-style: italic;
+    }
+
+    & .hljs-doctag {
+      color: var(--luma-comment);
+    }
+
+    & :is(.hljs-keyword, .hljs-meta-keyword, .hljs-meta .hljs-keyword) {
+      color: var(--luma-keyword);
+    }
+
+    & .hljs-literal {
+      color: var(--luma-constant);
+      font-style: italic;
+    }
+
+    & :is(.hljs-symbol, .hljs-char.escape_, .hljs-template-tag) {
+      color: var(--luma-constant);
+    }
+
+    /* .hljs-title.class_ outranks the plain .hljs-title rule below. */
+    & :is(.hljs-type, .hljs-title.class_) {
+      color: var(--luma-type);
+    }
+
+    & :is(.hljs-title, .hljs-meta) {
+      color: var(--luma-function);
+    }
+
+    & :is(.hljs-string, .hljs-meta-string, .hljs-meta .hljs-string) {
+      color: var(--luma-string);
+    }
+
+    & .hljs-regexp {
+      color: var(--luma-regexp);
+    }
+
+    & .hljs-name {
+      color: var(--luma-tag);
+    }
+
+    & .hljs-tag .hljs-attr {
+      color: var(--luma-tag-attr);
+      font-style: italic;
+    }
+
+    & :is(
+        .hljs-selector-tag,
+        .hljs-selector-id,
+        .hljs-selector-class,
+        .hljs-selector-attr,
+        .hljs-selector-pseudo
+      ) {
+      color: var(--luma-selector);
+    }
+
+    & .hljs-section {
+      color: var(--luma-heading);
+      font-weight: bold;
+    }
+
+    & .hljs-link {
+      color: var(--luma-link);
+      text-decoration: underline;
+    }
+
+    & .hljs-code {
+      color: var(--luma-function);
+    }
+
+    & .hljs-emphasis {
+      font-style: italic;
+    }
+
+    & .hljs-strong {
+      font-weight: bold;
+    }
+
+    & .hljs-addition {
+      color: var(--luma-inserted);
+      background-color: var(--luma-inserted-bg);
+    }
+
+    & .hljs-deletion {
+      color: var(--luma-deleted);
+      background-color: var(--luma-deleted-bg);
+    }
+  }

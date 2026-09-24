@@ -1,0 +1,216 @@
+/*
+ * Luma colors for code blocks in the VS Code Markdown preview.
+ *
+ * The preview highlights code with highlight.js and its own built-in
+ * stylesheet, not with the color theme's tokenColors. These rules only apply
+ * when a Luma theme is active: the preview's <body> carries the active
+ * theme's id (its label) in data-vscode-theme-id.
+ *
+ * Mapping mirrors the tokenColors of the vscode*.yaml templates.
+ */
+
+body[data-vscode-theme-id="Luma - Dark"] {
+  --luma-fg: #ababab;
+  --luma-comment: #5aa55e;
+  --luma-keyword: #a09239;
+  --luma-constant: #db5ca4;
+  --luma-type: #5f90e2;
+  --luma-function: #c97c3c;
+  --luma-string: #3ba2a7;
+  --luma-regexp: #967ce6;
+  --luma-tag: #5f90e2;
+  --luma-tag-attr: #a09239;
+  --luma-selector: #c97c3c;
+  --luma-heading: #5aa55e;
+  --luma-link: #c97c3c;
+  --luma-inserted: #5aa55e;
+  --luma-inserted-bg: #5aa55e20;
+  --luma-deleted: #dd6660;
+  --luma-deleted-bg: #dd666020;
+}
+
+body[data-vscode-theme-id="Luma - Light"] {
+  --luma-fg: #20222a;
+  --luma-comment: #478944;
+  --luma-keyword: #897622;
+  --luma-constant: #c63187;
+  --luma-type: #2f78c8;
+  --luma-function: #b75726;
+  --luma-string: #248595;
+  --luma-regexp: #8354de;
+  --luma-tag: #2f78c8;
+  --luma-tag-attr: #897622;
+  --luma-selector: #b75726;
+  --luma-heading: #478944;
+  --luma-link: #b75726;
+  --luma-inserted: #478944;
+  --luma-inserted-bg: #47894420;
+  --luma-deleted: #ca3c4e;
+  --luma-deleted-bg: #ca3c4e20;
+}
+
+body[data-vscode-theme-id="Luma Quiet - Dark"] {
+  --luma-fg: #ababab;
+  --luma-comment: #5aa55e;
+  --luma-keyword: #ababab;
+  --luma-constant: #ababab;
+  --luma-type: #ababab;
+  --luma-function: #c97c3c;
+  --luma-string: #3ba2a7;
+  --luma-regexp: #967ce6;
+  --luma-tag: #5f90e2;
+  --luma-tag-attr: #ababab;
+  --luma-selector: #c97c3c;
+  --luma-heading: #5aa55e;
+  --luma-link: #c97c3c;
+  --luma-inserted: #5aa55e;
+  --luma-inserted-bg: #5aa55e20;
+  --luma-deleted: #dd6660;
+  --luma-deleted-bg: #dd666020;
+}
+
+body[data-vscode-theme-id="Luma Quiet - Light"] {
+  --luma-fg: #20222a;
+  --luma-comment: #478944;
+  --luma-keyword: #20222a;
+  --luma-constant: #20222a;
+  --luma-type: #20222a;
+  --luma-function: #b75726;
+  --luma-string: #248595;
+  --luma-regexp: #8354de;
+  --luma-tag: #2f78c8;
+  --luma-tag-attr: #20222a;
+  --luma-selector: #b75726;
+  --luma-heading: #478944;
+  --luma-link: #b75726;
+  --luma-inserted: #478944;
+  --luma-inserted-bg: #47894420;
+  --luma-deleted: #ca3c4e;
+  --luma-deleted-bg: #ca3c4e20;
+}
+
+:is(
+    body[data-vscode-theme-id="Luma - Dark"],
+    body[data-vscode-theme-id="Luma - Light"],
+    body[data-vscode-theme-id="Luma Quiet - Dark"],
+    body[data-vscode-theme-id="Luma Quiet - Light"]
+  )
+  :is(
+    .hljs-attr,
+    .hljs-attribute,
+    .hljs-bullet,
+    .hljs-built_in,
+    .hljs-builtin-name,
+    .hljs-class,
+    .hljs-formula,
+    .hljs-function,
+    .hljs-number,
+    .hljs-operator,
+    .hljs-params,
+    .hljs-property,
+    .hljs-punctuation,
+    .hljs-subst,
+    .hljs-tag,
+    .hljs-template-variable,
+    .hljs-variable
+  ) {
+  color: var(--luma-fg);
+  font-style: normal;
+}
+
+:is(
+    body[data-vscode-theme-id="Luma - Dark"],
+    body[data-vscode-theme-id="Luma - Light"],
+    body[data-vscode-theme-id="Luma Quiet - Dark"],
+    body[data-vscode-theme-id="Luma Quiet - Light"]
+  ) {
+  & :is(.hljs-comment, .hljs-quote) {
+    color: var(--luma-comment);
+    font-style: italic;
+  }
+
+  & .hljs-doctag {
+    color: var(--luma-comment);
+  }
+
+  & :is(.hljs-keyword, .hljs-meta-keyword, .hljs-meta .hljs-keyword) {
+    color: var(--luma-keyword);
+  }
+
+  & .hljs-literal {
+    color: var(--luma-constant);
+    font-style: italic;
+  }
+
+  & :is(.hljs-symbol, .hljs-char.escape_, .hljs-template-tag) {
+    color: var(--luma-constant);
+  }
+
+  /* .hljs-title.class_ outranks the plain .hljs-title rule below. */
+  & :is(.hljs-type, .hljs-title.class_) {
+    color: var(--luma-type);
+  }
+
+  & :is(.hljs-title, .hljs-meta) {
+    color: var(--luma-function);
+  }
+
+  & :is(.hljs-string, .hljs-meta-string, .hljs-meta .hljs-string) {
+    color: var(--luma-string);
+  }
+
+  & .hljs-regexp {
+    color: var(--luma-regexp);
+  }
+
+  & .hljs-name {
+    color: var(--luma-tag);
+  }
+
+  & .hljs-tag .hljs-attr {
+    color: var(--luma-tag-attr);
+    font-style: italic;
+  }
+
+  & :is(
+      .hljs-selector-tag,
+      .hljs-selector-id,
+      .hljs-selector-class,
+      .hljs-selector-attr,
+      .hljs-selector-pseudo
+    ) {
+    color: var(--luma-selector);
+  }
+
+  & .hljs-section {
+    color: var(--luma-heading);
+    font-weight: bold;
+  }
+
+  & .hljs-link {
+    color: var(--luma-link);
+    text-decoration: underline;
+  }
+
+  & .hljs-code {
+    color: var(--luma-function);
+  }
+
+  & .hljs-emphasis {
+    font-style: italic;
+  }
+
+  & .hljs-strong {
+    font-weight: bold;
+  }
+
+  & .hljs-addition {
+    color: var(--luma-inserted);
+    background-color: var(--luma-inserted-bg);
+  }
+
+  & .hljs-deletion {
+    color: var(--luma-deleted);
+    background-color: var(--luma-deleted-bg);
+  }
+}
